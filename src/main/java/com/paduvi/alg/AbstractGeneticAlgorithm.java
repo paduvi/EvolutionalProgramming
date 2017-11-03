@@ -49,6 +49,7 @@ public abstract class AbstractGeneticAlgorithm {
 		this.sortIndices = sortResult(newPopulation);
 		this.pop = newPopulation;
 
+		
 		if (isConverging()) {
 			convergeLeft--;
 			if (convergeLeft == 0) {

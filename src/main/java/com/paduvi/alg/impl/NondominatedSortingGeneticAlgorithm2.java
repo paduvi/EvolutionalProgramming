@@ -95,10 +95,16 @@ public class NondominatedSortingGeneticAlgorithm2 extends AbstractGeneticAlgorit
 		Individual best = pop.getIndividual(sortIndices[0]);
 		Individual second = pop.getIndividual(sortIndices[1]);
 
-		if (best.equals(this.best) && second.equals(this.second))
+		if (best.equals(this.best)) {
+			this.best = best;
+			this.second = second;
 			return true;
+		}
 		this.best = best;
 		this.second = second;
+		if (best.equals(second)) {
+			return true;
+		}
 		return false;
 	}
 
