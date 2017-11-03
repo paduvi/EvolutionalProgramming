@@ -2,8 +2,6 @@ package com.paduvi.util;
 
 import java.util.function.Function;
 
-import org.apache.commons.math3.distribution.NormalDistribution;
-
 public class Constants {
 
 	public static Function<byte[], Double> fitnessFunc = genes -> {
@@ -14,8 +12,4 @@ public class Constants {
 		return sum;
 	};
 	
-	public static double rand(double bound) {
-		NormalDistribution dist = new NormalDistribution(0, bound);
-		return Math.abs(dist.sample());
-	};
 }

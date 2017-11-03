@@ -1,11 +1,11 @@
 package com.paduvi.alg.ga;
 
+import java.util.List;
 import java.util.function.Function;
 
 public class Population {
 
 	private Individual[] individuals;
-	private Double maxFitness;
 	private boolean stopConditionReached = false;
 
 	/*
@@ -15,12 +15,12 @@ public class Population {
 		individuals = new Individual[populationSize];
 	}
 
-	public Population(int populationSize, int geneLength, Function<byte[], Double> fitnessFunc) {
+	public Population(int populationSize, int geneLength, List<Function<byte[], Double>> fitnessFuncList) {
 		individuals = new Individual[populationSize];
 		// Initialise population
 		// Loop and create individuals
 		for (int i = 0; i < size(); i++) {
-			Individual newIndividual = new Individual(geneLength, fitnessFunc);
+			Individual newIndividual = new Individual(geneLength, fitnessFuncList);
 			saveIndividual(i, newIndividual);
 		}
 	}
@@ -28,34 +28,6 @@ public class Population {
 	/* Getters */
 	public Individual getIndividual(int index) {
 		return individuals[index];
-	}
-
-	public Individual getBestFittest() {
-		Individual fittest = individuals[0];
-		// Loop through individuals to find fittest
-
-		for (int i = 0; i < size(); i++) {
-			if (fittest.getFitness() <= getIndividual(i).getFitness()) {
-				fittest = getIndividual(i);
-			}
-		}
-		return fittest;
-	}
-
-	public Individual getSecondFittest() {
-		Individual fittest = individuals[0];
-		Individual second = individuals[0];
-		// Loop through individuals to find fittest
-
-		for (int i = 0; i < size(); i++) {
-			if (fittest.getFitness() <= getIndividual(i).getFitness()) {
-				second = fittest;
-				fittest = getIndividual(i);
-			} else if (second.getFitness() <= getIndividual(i).getFitness()) {
-				second = getIndividual(i);
-			}
-		}
-		return second;
 	}
 
 	/* Public methods */
@@ -67,14 +39,6 @@ public class Population {
 	// Save individual
 	public void saveIndividual(int index, Individual indiv) {
 		individuals[index] = indiv;
-	}
-
-	public Double getMaxFitness() {
-		return maxFitness;
-	}
-
-	public void setMaxFitness(Double maxFitness) {
-		this.maxFitness = maxFitness;
 	}
 
 	public boolean isStopConditionReached() {

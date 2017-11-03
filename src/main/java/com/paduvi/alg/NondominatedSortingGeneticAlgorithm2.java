@@ -1,11 +1,17 @@
 package com.paduvi.alg;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.function.Function;
+
 import com.paduvi.alg.ga.Individual;
 import com.paduvi.alg.ga.Population;
 import com.paduvi.util.Constants;
 
 public class NondominatedSortingGeneticAlgorithm2 extends GeneticAlgorithm {
 	private Population pop;
+	private Function<double[], Double> combineFitnessFunc;
+	private Integer[] sortIndices;
 
 	public static NondominatedSortingGeneticAlgorithm2 getInstance(Population pop) {
 		return new NondominatedSortingGeneticAlgorithm2(pop);
@@ -16,14 +22,13 @@ public class NondominatedSortingGeneticAlgorithm2 extends GeneticAlgorithm {
 	}
 
 	@Override
+	/* Public methods */
+	// Evolve a population
 	public Population evolvePopulation() {
-		double best = pop.getBestFittest().getFitness();
-		double second = pop.getSecondFittest().getFitness();
+		double best = combineFitnessFunc.apply(pop.getIndividual(sortIndices[0]).getFitness());
+		double second = combineFitnessFunc.apply(pop.getIndividual(sortIndices[1]).getFitness());
 
 		Population newPopulation = new Population(pop.size());
-		if (pop.getMaxFitness() != null) {
-			newPopulation.setMaxFitness(pop.getMaxFitness());
-		}
 
 		// Crossover population
 		// Loop over the population size and create new individuals with
@@ -44,32 +49,50 @@ public class NondominatedSortingGeneticAlgorithm2 extends GeneticAlgorithm {
 			mutate(newPopulation.getIndividual(i));
 		}
 
-		if (newPopulation.getBestFittest().getFitness() == best
-				&& newPopulation.getSecondFittest().getFitness() == second) {
+		this.sortIndices = sortResult(newPopulation);
+
+		if (combineFitnessFunc.apply(newPopulation.getIndividual(sortIndices[0]).getFitness()) == best
+				&& combineFitnessFunc.apply(newPopulation.getIndividual(sortIndices[1]).getFitness()) == second) {
 			newPopulation.setStopConditionReached(true);
 		}
 
-		if (newPopulation.getBestFittest().getFitness() >= newPopulation.getMaxFitness()) {
-			newPopulation.setStopConditionReached(true);
-		}
-
+		this.pop = newPopulation;
 		return newPopulation;
 	}
 
+	// private Population fastNonDominatedSort(Population pop) {
+	// for (int i = 0; i < pop.size(); i++) {
+	// for (int j = 0; j < pop.size(); j++) {
+	// if (i == j)
+	// continue;
+	// if (pop.getIndividual(i).getFitness() ==
+	// pop.getIndividual(j).getFitness())
+	// continue;
+	// }
+	// }
+	// }
+
 	public static void main(String[] args) {
-		Population myPop = new Population(1000, 50, Constants.fitnessFunc);
-		myPop.setMaxFitness(50.);
+		List<Function<byte[], Double>> fitnessFuncList = new ArrayList<>();
+		fitnessFuncList.add(Constants.fitnessFunc);
+		Population myPop = new Population(1000, 50, fitnessFuncList);
 
 		// Evolve our population until we reach an optimum solution
 		int generationCount = 0;
+		NondominatedSortingGeneticAlgorithm2 nsga2 = new NondominatedSortingGeneticAlgorithm2(myPop);
 		do {
-			System.out.println("Generation: " + generationCount + " - Fittest: " + myPop.getBestFittest().getFitness());
+			Integer[] sortedIndices = nsga2.getSortIndices();
+			Individual best = myPop.getIndividual(sortedIndices[0]);
+			System.out.println("Generation: " + generationCount + " - Fittest: "
+					+ nsga2.getCombineFitnessFunc().apply(best.getFitness()));
 			generationCount++;
-			myPop = NondominatedSortingGeneticAlgorithm2.getInstance(myPop).evolvePopulation();
+			myPop = nsga2.evolvePopulation();
 		} while (!myPop.isStopConditionReached());
 
-		System.out.println("Solution found! Fitness: " + myPop.getBestFittest().getFitness());
+		Integer[] sortedIndices = nsga2.getSortIndices();
+		Individual best = myPop.getIndividual(sortedIndices[0]);
+		System.out.println("Solution found! Fitness: " + nsga2.getCombineFitnessFunc().apply(best.getFitness()));
 		System.out.println("Generation: " + generationCount);
-		System.out.println("Genes: " + myPop.getBestFittest());
+		System.out.println("Genes: " + best);
 	}
 }

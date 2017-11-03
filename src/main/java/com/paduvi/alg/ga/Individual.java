@@ -1,34 +1,33 @@
 package com.paduvi.alg.ga;
 
 import java.util.Arrays;
+import java.util.List;
 import java.util.function.Function;
-
-import com.paduvi.util.Constants;
 
 public class Individual {
 	private int geneLength;
 	private byte[] genes;
-	private double fitness;
-	private Function<byte[], Double> fitnessFunc;
+	private double[] fitness;
+	private List<Function<byte[], Double>> fitnessFuncList;
 
-	public Individual(int geneLength, Function<byte[], Double> fitnessFunc) {
-		this.fitnessFunc = fitnessFunc;
+	public Individual(int geneLength, List<Function<byte[], Double>> fitnessFuncList) {
+		this.fitnessFuncList = fitnessFuncList;
 		this.geneLength = geneLength;
 		this.genes = new byte[geneLength];
 		for (int i = 0; i < size(); i++) {
-			byte gene = (byte) Math.round(Constants.rand(1));
+			byte gene = (byte) Math.round(Math.random());
 			genes[i] = gene;
 		}
 		calcFitness();
 	}
 
-	public void calcFitness() {
-		this.fitness = fitnessFunc.apply(genes);
+	private void calcFitness() {
+		this.fitness = fitnessFuncList.stream().mapToDouble(func->func.apply(genes)).toArray();
 	}
 
 	/* Getters and setters */
-	public Function<byte[], Double> getFitnessFunc() {
-		return fitnessFunc;
+	public List<Function<byte[], Double>> getFitnessFunc() {
+		return fitnessFuncList;
 	}
 
 	public byte getGene(int index) {
@@ -40,7 +39,7 @@ public class Individual {
 		calcFitness();
 	}
 
-	public double getFitness() {
+	public double[] getFitness() {
 		return fitness;
 	}
 
@@ -61,4 +60,8 @@ public class Individual {
 		}
 		return false;
 	}
+	
+//	public boolean rshift(Individual other){
+//		
+//	}
 }

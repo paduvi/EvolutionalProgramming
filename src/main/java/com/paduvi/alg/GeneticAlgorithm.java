@@ -1,8 +1,15 @@
 package com.paduvi.alg;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Function;
+import java.util.stream.IntStream;
+
 import com.paduvi.alg.ga.Individual;
 import com.paduvi.alg.ga.Population;
 import com.paduvi.util.Constants;
+import com.paduvi.util.SortUtils.ArrayIndexComparator;
 
 public class GeneticAlgorithm {
 	/* GA parameters */
@@ -12,38 +19,45 @@ public class GeneticAlgorithm {
 
 	private Population pop;
 	private boolean elitism;
-
-	public static GeneticAlgorithm getInstance(Population pop) {
-		return getInstance(pop, true);
-	}
-
-	public static GeneticAlgorithm getInstance(Population pop, boolean elitism) {
-		return new GeneticAlgorithm(pop, elitism);
-	}
-
-	public GeneticAlgorithm(Population pop, boolean elitism) {
-		this.pop = pop;
-		this.elitism = elitism;
-	}
+	private Function<double[], Double> combineFitnessFunc;
+	private Integer[] sortIndices;
+	private Double maxFitness;
 
 	public GeneticAlgorithm() {
+	}
 
+	public GeneticAlgorithm(Population pop) {
+		this(pop, (Function<double[], Double>) arr -> Arrays.stream(arr).sum());
+	}
+
+	public GeneticAlgorithm(Population pop, Function<double[], Double> combineFitnessFunc) {
+		this(pop, combineFitnessFunc, null);
+	}
+
+	public GeneticAlgorithm(Population pop, Function<double[], Double> combineFitnessFunc, Double maxFitness) {
+		this(pop, combineFitnessFunc, maxFitness, true);
+	}
+
+	public GeneticAlgorithm(Population pop, Function<double[], Double> combineFitnessFunc, Double maxFitness,
+			boolean elitism) {
+		this.pop = pop;
+		this.combineFitnessFunc = combineFitnessFunc;
+		this.maxFitness = maxFitness;
+		this.elitism = elitism;
+		this.sortIndices = sortResult(pop);
 	}
 
 	/* Public methods */
 	// Evolve a population
 	public Population evolvePopulation() {
-		double best = pop.getBestFittest().getFitness();
-		double second = pop.getSecondFittest().getFitness();
+		double best = combineFitnessFunc.apply(pop.getIndividual(sortIndices[0]).getFitness());
+		double second = combineFitnessFunc.apply(pop.getIndividual(sortIndices[1]).getFitness());
 
 		Population newPopulation = new Population(pop.size());
-		if (pop.getMaxFitness() != null) {
-			newPopulation.setMaxFitness(pop.getMaxFitness());
-		}
 
 		// Keep our best individual
 		if (elitism) {
-			newPopulation.saveIndividual(0, pop.getBestFittest());
+			newPopulation.saveIndividual(0, pop.getIndividual(sortIndices[0]));
 		}
 
 		// Crossover population
@@ -71,16 +85,29 @@ public class GeneticAlgorithm {
 			mutate(newPopulation.getIndividual(i));
 		}
 
-		if (newPopulation.getBestFittest().getFitness() == best
-				&& newPopulation.getSecondFittest().getFitness() == second) {
+		this.sortIndices = sortResult(newPopulation);
+
+		if (combineFitnessFunc.apply(newPopulation.getIndividual(sortIndices[0]).getFitness()) == best
+				&& combineFitnessFunc.apply(newPopulation.getIndividual(sortIndices[1]).getFitness()) == second) {
 			newPopulation.setStopConditionReached(true);
 		}
 
-		if (newPopulation.getBestFittest().getFitness() >= newPopulation.getMaxFitness()) {
+		if (maxFitness != null
+				&& combineFitnessFunc.apply(newPopulation.getIndividual(sortIndices[0]).getFitness()) >= maxFitness) {
 			newPopulation.setStopConditionReached(true);
 		}
 
+		this.pop = newPopulation;
 		return newPopulation;
+	}
+
+	protected Integer[] sortResult(Population pop) {
+		double[][] fitnesses = IntStream.rangeClosed(0, pop.size() - 1)
+				.mapToObj(idx -> pop.getIndividual(idx).getFitness()).toArray(double[][]::new);
+		ArrayIndexComparator<double[], Double> comparator = new ArrayIndexComparator<>(fitnesses, combineFitnessFunc);
+		Integer[] indices = comparator.createIndexArray();
+		Arrays.sort(indices, comparator);
+		return indices;
 	}
 
 	// Crossover individuals
@@ -104,7 +131,7 @@ public class GeneticAlgorithm {
 		for (int i = 0; i < indiv.size(); i++) {
 			if (Math.random() <= mutationRate) {
 				// Create random gene
-				byte gene = (byte) Math.round(Constants.rand(1));
+				byte gene = (byte) Math.round(Math.random());
 				indiv.setGene(i, gene);
 			}
 		}
@@ -120,28 +147,44 @@ public class GeneticAlgorithm {
 			tournament.saveIndividual(i, pop.getIndividual(randomId));
 		}
 		// Get the fittest
-		Individual fittest = tournament.getBestFittest();
+		Integer[] indices = sortResult(tournament);
+		Individual fittest = tournament.getIndividual(indices[0]);
 		return fittest;
 	}
 
-	protected Population getPop() {
+	public Population getPop() {
 		return pop;
 	}
 
+	public Integer[] getSortIndices() {
+		return sortIndices;
+	}
+
+	public Function<double[], Double> getCombineFitnessFunc() {
+		return combineFitnessFunc;
+	}
+
 	public static void main(String[] args) {
-		Population myPop = new Population(1000, 50, Constants.fitnessFunc);
-		myPop.setMaxFitness(50.);
+		List<Function<byte[], Double>> fitnessFuncList = new ArrayList<>();
+		fitnessFuncList.add(Constants.fitnessFunc);
+		Population myPop = new Population(1000, 50, fitnessFuncList);
 
 		// Evolve our population until we reach an optimum solution
 		int generationCount = 0;
+		GeneticAlgorithm ga = new GeneticAlgorithm(myPop);
 		do {
-			System.out.println("Generation: " + generationCount + " - Fittest: " + myPop.getBestFittest().getFitness());
+			Integer[] sortedIndices = ga.getSortIndices();
+			Individual best = myPop.getIndividual(sortedIndices[0]);
+			System.out.println("Generation: " + generationCount + " - Fittest: "
+					+ ga.getCombineFitnessFunc().apply(best.getFitness()));
 			generationCount++;
-			myPop = GeneticAlgorithm.getInstance(myPop).evolvePopulation();
+			myPop = ga.evolvePopulation();
 		} while (!myPop.isStopConditionReached());
 
-		System.out.println("Solution found! Fitness: " + myPop.getBestFittest().getFitness());
+		Integer[] sortedIndices = ga.getSortIndices();
+		Individual best = myPop.getIndividual(sortedIndices[0]);
+		System.out.println("Solution found! Fitness: " + ga.getCombineFitnessFunc().apply(best.getFitness()));
 		System.out.println("Generation: " + generationCount);
-		System.out.println("Genes: " + myPop.getBestFittest());
+		System.out.println("Genes: " + best);
 	}
 }
