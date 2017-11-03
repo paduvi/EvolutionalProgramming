@@ -9,7 +9,7 @@ public class Constants {
 		for (byte gene : genes) {
 			sum += gene;
 		}
-		return sum;
+		return 1 / sum;
 	};
-	
+
 }

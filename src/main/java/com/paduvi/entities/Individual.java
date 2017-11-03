@@ -1,4 +1,4 @@
-package com.paduvi.alg.ga;
+package com.paduvi.entities;
 
 import java.util.Arrays;
 import java.util.List;
@@ -22,7 +22,7 @@ public class Individual {
 	}
 
 	private void calcFitness() {
-		this.fitness = fitnessFuncList.stream().mapToDouble(func->func.apply(genes)).toArray();
+		this.fitness = fitnessFuncList.stream().mapToDouble(func -> func.apply(genes)).toArray();
 	}
 
 	/* Getters and setters */
@@ -60,8 +60,21 @@ public class Individual {
 		}
 		return false;
 	}
-	
-//	public boolean rshift(Individual other){
-//		
-//	}
+
+	public boolean rshift(Individual other) {
+		boolean dominate = false;
+		for (int i = 0; i < fitnessFuncList.size(); i++) {
+			if (this.fitness[i] > other.fitness[i]) {
+				return false;
+			}
+			if (this.fitness[i] < other.fitness[i]) {
+				dominate = true;
+			}
+		}
+		return dominate;
+	}
+
+	public boolean lshift(Individual other) {
+		return other.rshift(this);
+	}
 }

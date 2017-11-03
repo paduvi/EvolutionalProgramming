@@ -1,4 +1,4 @@
-package com.paduvi.alg.ga;
+package com.paduvi.entities;
 
 import java.util.List;
 import java.util.function.Function;
@@ -45,7 +45,7 @@ public class Population {
 		return stopConditionReached;
 	}
 
-	public void setStopConditionReached(boolean stopConditionReached) {
-		this.stopConditionReached = stopConditionReached;
+	public void setStopConditionReached() {
+		this.stopConditionReached = true;
 	}
 }
