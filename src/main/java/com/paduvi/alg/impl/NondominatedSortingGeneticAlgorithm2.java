@@ -42,7 +42,7 @@ public class NondominatedSortingGeneticAlgorithm2 extends AbstractGeneticAlgorit
 			solutions.addAll(front);
 		}
 
-		Collections.sort(solutions, Collections.reverseOrder());
+		Collections.sort(solutions);
 		return solutions.stream().map(solution -> solution.getIndice()).toArray(Integer[]::new);
 	}
 
@@ -66,7 +66,7 @@ public class NondominatedSortingGeneticAlgorithm2 extends AbstractGeneticAlgorit
 				}
 			}
 			if (dominateCount[i] == 0) {
-				currentFront.add(new FrontPoint(i, pop.getIndividual(i)));
+				currentFront.add(new FrontPoint(i, pop.getIndividual(i), 0));
 			}
 		}
 		fronts.add(currentFront);
@@ -77,7 +77,7 @@ public class NondominatedSortingGeneticAlgorithm2 extends AbstractGeneticAlgorit
 				for (Integer s : dominatedMap.getOrDefault(r.getIndice(), new ArrayList<>())) {
 					dominateCount[s]--;
 					if (dominateCount[s] == 0) {
-						nextFront.add(new FrontPoint(s, pop.getIndividual(s)));
+						nextFront.add(new FrontPoint(s, pop.getIndividual(s), i + 1));
 					}
 				}
 			}

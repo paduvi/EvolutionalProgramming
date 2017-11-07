@@ -8,12 +8,14 @@ import com.paduvi.util.SortUtils.ArrayIndexComparator;
 public class FrontPoint implements Comparable<FrontPoint> {
 
 	private int indice;
-	private double distance = 0;
+	private Double distance = 0.;
 	private Individual individual;
+	private Integer rank;
 
-	public FrontPoint(int indice, Individual individual) {
+	public FrontPoint(int indice, Individual individual, int rank) {
 		this.indice = indice;
 		this.individual = individual;
+		this.rank = rank;
 	}
 
 	public static void crowdingDistanceAssignment(List<FrontPoint> front) {
@@ -64,8 +66,8 @@ public class FrontPoint implements Comparable<FrontPoint> {
 
 	@Override
 	public int compareTo(FrontPoint o) {
-		Double d1 = Double.valueOf(this.distance);
-		Double d2 = Double.valueOf(o.distance);
-		return d1.compareTo(d2);
+		if (this.rank.equals(o.rank))
+			return o.distance.compareTo(this.distance);
+		return this.rank.compareTo(o.rank);
 	}
 }
