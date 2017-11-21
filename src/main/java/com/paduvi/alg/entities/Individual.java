@@ -1,22 +1,25 @@
-package com.paduvi.entities;
+package com.paduvi.alg.entities;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Function;
 
+import com.paduvi.util.ProcessUtils;
+
 public class Individual {
-	private int geneLength;
+	private int nGenes;
 	private byte[] genes;
 	private double[] fitness;
 	private List<Function<byte[], Double>> fitnessFuncList;
 
-	public Individual(int geneLength, List<Function<byte[], Double>> fitnessFuncList) {
+	public Individual(int geneSize, int nGenes, List<Function<byte[], Double>> fitnessFuncList) {
 		this.fitnessFuncList = fitnessFuncList;
-		this.geneLength = geneLength;
-		this.genes = new byte[geneLength];
-		for (int i = 0; i < size(); i++) {
-			byte gene = (byte) Math.round(Math.random());
-			genes[i] = gene;
+		this.nGenes = nGenes;
+		this.genes = new byte[nGenes];
+		for (int i = 0; i < size(); i += geneSize) {
+			byte[] gene = ProcessUtils.makeOneHotEncode(ThreadLocalRandom.current().nextInt(0, geneSize), geneSize);
+			System.arraycopy(gene, 0, this.genes, i, geneSize);
 		}
 		calcFitness();
 	}
@@ -44,7 +47,7 @@ public class Individual {
 	}
 
 	public int size() {
-		return geneLength;
+		return nGenes;
 	}
 
 	@Override

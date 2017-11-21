@@ -6,9 +6,9 @@ import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
+import com.paduvi.alg.entities.Individual;
+import com.paduvi.alg.entities.Population;
 import com.paduvi.alg.impl.NondominatedSortingGeneticAlgorithm2;
-import com.paduvi.entities.Individual;
-import com.paduvi.entities.Population;
 
 public class TestNSGA2 {
 

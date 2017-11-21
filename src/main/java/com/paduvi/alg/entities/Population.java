@@ -1,4 +1,4 @@
-package com.paduvi.entities;
+package com.paduvi.alg.entities;
 
 import java.util.List;
 import java.util.function.Function;
@@ -7,6 +7,7 @@ public class Population {
 
 	private Individual[] individuals;
 	private boolean stopConditionReached = false;
+	private int geneSize = 1;
 
 	/*
 	 * Constructors
@@ -15,12 +16,17 @@ public class Population {
 		individuals = new Individual[populationSize];
 	}
 
-	public Population(int populationSize, int geneLength, List<Function<byte[], Double>> fitnessFuncList) {
+	public Population(int populationSize, int nGenes, List<Function<byte[], Double>> fitnessFuncList) {
+		this(populationSize, 1, nGenes, fitnessFuncList);
+	}
+
+	public Population(int populationSize, int geneSize, int nGenes, List<Function<byte[], Double>> fitnessFuncList) {
 		individuals = new Individual[populationSize];
+		setGeneSize(geneSize);
 		// Initialise population
 		// Loop and create individuals
 		for (int i = 0; i < size(); i++) {
-			Individual newIndividual = new Individual(geneLength, fitnessFuncList);
+			Individual newIndividual = new Individual(geneSize, nGenes, fitnessFuncList);
 			saveIndividual(i, newIndividual);
 		}
 	}
@@ -48,4 +54,13 @@ public class Population {
 	public void setStopConditionReached() {
 		this.stopConditionReached = true;
 	}
+
+	public int getGeneSize() {
+		return geneSize;
+	}
+
+	public void setGeneSize(int geneSize) {
+		this.geneSize = geneSize;
+	}
+
 }

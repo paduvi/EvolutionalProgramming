@@ -9,9 +9,9 @@ import java.util.Map;
 import java.util.function.Function;
 
 import com.paduvi.alg.AbstractGeneticAlgorithm;
-import com.paduvi.entities.FrontPoint;
-import com.paduvi.entities.Individual;
-import com.paduvi.entities.Population;
+import com.paduvi.alg.entities.FrontPoint;
+import com.paduvi.alg.entities.Individual;
+import com.paduvi.alg.entities.Population;
 import com.paduvi.util.Constants;
 
 public class NondominatedSortingGeneticAlgorithm2 extends AbstractGeneticAlgorithm {
@@ -95,16 +95,22 @@ public class NondominatedSortingGeneticAlgorithm2 extends AbstractGeneticAlgorit
 		Individual best = pop.getIndividual(sortIndices[0]);
 		Individual second = pop.getIndividual(sortIndices[1]);
 
-		if (best.equals(this.best)) {
-			this.best = best;
-			this.second = second;
+		if (best.equals(this.best) && second.equals(this.second)) {
 			return true;
 		}
 		this.best = best;
 		this.second = second;
-		if (best.equals(second)) {
-			return true;
-		}
+
+		// if (best.equals(this.best)) {
+		// this.best = best;
+		// this.second = second;
+		// return true;
+		// }
+		// this.best = best;
+		// this.second = second;
+		// if (best.equals(second)) {
+		// return true;
+		// }
 		return false;
 	}
 

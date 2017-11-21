@@ -7,34 +7,34 @@ import java.util.function.Function;
 import java.util.stream.IntStream;
 
 import com.paduvi.alg.AbstractGeneticAlgorithm;
-import com.paduvi.entities.Individual;
-import com.paduvi.entities.Population;
+import com.paduvi.alg.entities.Individual;
+import com.paduvi.alg.entities.Population;
 import com.paduvi.util.Constants;
 import com.paduvi.util.SortUtils.ArrayIndexComparator;
 
-public class GeneticAlgorithm extends AbstractGeneticAlgorithm {
+public class SimpleGeneticAlgorithm extends AbstractGeneticAlgorithm {
 
 	private Function<double[], Double> combineFitnessFunc;
 	private Double maxFitness;
 	Individual best, second;
 
-	public GeneticAlgorithm(Population pop) {
+	public SimpleGeneticAlgorithm(Population pop) {
 		this(pop, (Function<double[], Double>) arr -> Arrays.stream(arr).sum());
 	}
 
-	public GeneticAlgorithm(Population pop, Double maxFitness) {
+	public SimpleGeneticAlgorithm(Population pop, Double maxFitness) {
 		this(pop, (Function<double[], Double>) arr -> Arrays.stream(arr).sum(), maxFitness);
 	}
 
-	public GeneticAlgorithm(Population pop, Function<double[], Double> combineFitnessFunc) {
+	public SimpleGeneticAlgorithm(Population pop, Function<double[], Double> combineFitnessFunc) {
 		this(pop, combineFitnessFunc, null);
 	}
 
-	public GeneticAlgorithm(Population pop, Function<double[], Double> combineFitnessFunc, Double maxFitness) {
+	public SimpleGeneticAlgorithm(Population pop, Function<double[], Double> combineFitnessFunc, Double maxFitness) {
 		this(pop, combineFitnessFunc, maxFitness, true);
 	}
 
-	public GeneticAlgorithm(Population pop, Function<double[], Double> combineFitnessFunc, Double maxFitness,
+	public SimpleGeneticAlgorithm(Population pop, Function<double[], Double> combineFitnessFunc, Double maxFitness,
 			boolean elitism) {
 		this.setPop(pop);
 		this.combineFitnessFunc = combineFitnessFunc;
@@ -92,7 +92,7 @@ public class GeneticAlgorithm extends AbstractGeneticAlgorithm {
 
 		// Evolve our population until we reach an optimum solution
 		int generationCount = 0;
-		GeneticAlgorithm ga = new GeneticAlgorithm(myPop, 50.);
+		SimpleGeneticAlgorithm ga = new SimpleGeneticAlgorithm(myPop, 50.);
 		do {
 			Integer[] sortedIndices = ga.getSortIndices();
 			Individual best = myPop.getIndividual(sortedIndices[0]);
