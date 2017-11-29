@@ -17,7 +17,6 @@ import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
-import com.paduvi.TestApp;
 import com.paduvi.app.Main.Solution;
 import com.paduvi.app.models.Contractor;
 import com.paduvi.app.models.Project;
@@ -30,7 +29,7 @@ public class App {
 		gsonBuilder.setFieldNamingPolicy(FieldNamingPolicy.LOWER_CASE_WITH_UNDERSCORES);
 		gsonBuilder.registerTypeAdapter(Timestamp.class, new TimestampDeserializer());
 		Gson gson = gsonBuilder.create();
-		File file = new File(TestApp.class.getResource("/data_sample/data.json").getPath());
+		File file = new File(App.class.getResource("/data_sample/data.json").getPath());
 
 		JsonObject json = gson.fromJson(new FileReader(file), JsonObject.class);
 		Project project = gson.fromJson(json, Project.class);
