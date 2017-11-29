@@ -1,72 +1,97 @@
 package com.paduvi.app.models;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
+import java.util.List;
 
 public class Product {
 
-	@JsonProperty("id")
-	private int id;
+	private int productId;
+	private int quantity;
+	private long buyPrice;
+	private long sellPrice;
+	private List<Discount> discounts;
 
-	@JsonProperty("n_units")
-	private int nUnits;
-
-	@JsonProperty("description")
-	private String description;
-
-	@JsonProperty("buy")
-	private long buy;
-
-	@JsonProperty("sell")
-	private long sell;
-
-	@JsonProperty("discount")
-	private int discount;
-
-	public int getId() {
-		return id;
+	public int getProductId() {
+		return productId;
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public void setProductId(int id) {
+		this.productId = id;
 	}
 
-	public int getnUnits() {
-		return nUnits;
+	public int getQuantity() {
+		return quantity;
 	}
 
-	public void setnUnits(int nUnits) {
-		this.nUnits = nUnits;
+	public void setQuantity(int quantity) {
+		this.quantity = quantity;
 	}
 
-	public String getDescription() {
-		return description;
+	public long getBuyPrice() {
+		return buyPrice;
 	}
 
-	public void setDescription(String description) {
-		this.description = description;
+	public void setBuyPrice(long buyPrice) {
+		this.buyPrice = buyPrice;
 	}
 
-	public long getBuy() {
-		return buy;
+	public long getSellPrice() {
+		return sellPrice;
 	}
 
-	public void setBuy(long buy) {
-		this.buy = buy;
+	public void setSellPrice(long sellPrice) {
+		this.sellPrice = sellPrice;
 	}
 
-	public long getSell() {
-		return sell;
+	public List<Discount> getDiscounts() {
+		return discounts;
 	}
 
-	public void setSell(long sell) {
-		this.sell = sell;
+	public void setDiscounts(List<Discount> discounts) {
+		this.discounts = discounts;
 	}
 
-	public int getDiscount() {
-		return discount;
+	public boolean isDiscounted(Timestamp t) {
+		return this.discounts.parallelStream().anyMatch(d -> d.isValid(t));
 	}
 
-	public void setDiscount(int discount) {
-		this.discount = discount;
+	public double getDiscountRate(Timestamp t) {
+		Discount discount = this.discounts.parallelStream().filter(d -> d.isValid(t)).findAny().orElse(null);
+		if (discount == null)
+			return 0;
+		return discount.getRate();
+	}
+
+	public class Discount {
+		private Timestamp from;
+		private Timestamp to;
+		private double rate;
+
+		public boolean isValid(Timestamp t) {
+			return t.get() >= from.get() && t.get() <= to.get();
+		}
+
+		public double getRate() {
+			return rate;
+		}
+
+		public void setRate(double rate) {
+			this.rate = rate;
+		}
+
+		public Timestamp getFrom() {
+			return from;
+		}
+
+		public void setFrom(Timestamp from) {
+			this.from = from;
+		}
+
+		public Timestamp getTo() {
+			return to;
+		}
+
+		public void setTo(Timestamp to) {
+			this.to = to;
+		}
 	}
 }

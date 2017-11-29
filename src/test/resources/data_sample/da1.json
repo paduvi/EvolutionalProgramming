@@ -1,0 +1,5013 @@
+{
+  "project_id": 0,
+  "inflation_rate": 0.01,
+  "start_date": "1/1/2015",
+  "packages": [
+    {
+      "package_id": 0,
+      "timeline": {
+        "from": "6/11/2019",
+        "to": "22/9/2020"
+      },
+      "joined_contractors": [
+        2,
+        0,
+        1
+      ],
+      "products": [
+        {
+          "product_id": 34,
+          "quantity": 2
+        },
+        {
+          "product_id": 36,
+          "quantity": 1
+        },
+        {
+          "product_id": 9,
+          "quantity": 2
+        },
+        {
+          "product_id": 7,
+          "quantity": 1
+        },
+        {
+          "product_id": 31,
+          "quantity": 1
+        },
+        {
+          "product_id": 37,
+          "quantity": 1
+        },
+        {
+          "product_id": 18,
+          "quantity": 1
+        }
+      ],
+      "estimated_cost": 538982182
+    },
+    {
+      "package_id": 1,
+      "timeline": {
+        "from": "4/4/2017",
+        "to": "7/12/2017"
+      },
+      "joined_contractors": [
+        1,
+        0,
+        2,
+        3
+      ],
+      "products": [
+        {
+          "product_id": 4,
+          "quantity": 177
+        },
+        {
+          "product_id": 42,
+          "quantity": 1
+        },
+        {
+          "product_id": 36,
+          "quantity": 1
+        },
+        {
+          "product_id": 24,
+          "quantity": 1
+        },
+        {
+          "product_id": 33,
+          "quantity": 1
+        },
+        {
+          "product_id": 15,
+          "quantity": 1
+        },
+        {
+          "product_id": 6,
+          "quantity": 20
+        },
+        {
+          "product_id": 22,
+          "quantity": 20
+        },
+        {
+          "product_id": 12,
+          "quantity": 1
+        },
+        {
+          "product_id": 28,
+          "quantity": 1
+        }
+      ],
+      "estimated_cost": 2339945888
+    },
+    {
+      "package_id": 2,
+      "timeline": {
+        "from": "12/7/2015",
+        "to": "4/11/2016"
+      },
+      "joined_contractors": [
+        2,
+        1,
+        3
+      ],
+      "products": [
+        {
+          "product_id": 12,
+          "quantity": 2
+        },
+        {
+          "product_id": 29,
+          "quantity": 1
+        },
+        {
+          "product_id": 4,
+          "quantity": 73
+        },
+        {
+          "product_id": 16,
+          "quantity": 2
+        },
+        {
+          "product_id": 34,
+          "quantity": 2
+        },
+        {
+          "product_id": 18,
+          "quantity": 1
+        },
+        {
+          "product_id": 40,
+          "quantity": 4
+        },
+        {
+          "product_id": 15,
+          "quantity": 1
+        }
+      ],
+      "estimated_cost": 1637794572
+    }
+  ],
+  "product": [
+    {
+      "product_id": 0,
+      "description": "Máy trạm (PC)",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 1,
+      "description": "Máy tính xách tay",
+      "unit": "Chiếc"
+    },
+    {
+      "product_id": 2,
+      "description": "Máy in ",
+      "unit": "Chiếc"
+    },
+    {
+      "product_id": 3,
+      "description": "Máy in màu",
+      "unit": "Chiếc"
+    },
+    {
+      "product_id": 4,
+      "description": "Máy Scanner",
+      "unit": "Chiếc"
+    },
+    {
+      "product_id": 5,
+      "description": "Lưu điện máy chủ",
+      "unit": "Chiếc"
+    },
+    {
+      "product_id": 6,
+      "description": "Máy chiếu",
+      "unit": "Chiếc"
+    },
+    {
+      "product_id": 7,
+      "description": "Chống sét",
+      "unit": "Điểm"
+    },
+    {
+      "product_id": 8,
+      "description": "Modem ADSL",
+      "unit": "Chiếc"
+    },
+    {
+      "product_id": 9,
+      "description": "Router",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 10,
+      "description": "Switch",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 11,
+      "description": "Thiết bị định tuyến Cisco Router ISR4331-AX/K9 (hoặc tương đương)",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 12,
+      "description": "Chuyển mạch Switch Switch Cisco Catalyst WS-C2960X-24TS-L (hoặc tương đương)",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 13,
+      "description": "Máy chủ (Ảo hóa thành các máy chủ ứng dụng CSDL) Dell PowerEdge R730 (hoặc tương đương)",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 14,
+      "description": "Máy chủ ATK Dell PowerEdge R630 (hoặc tương đương)",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 15,
+      "description": "Máy chủ Virus + Kiểm soát kết nối internet Dell PowerEdge R630 (hoặc tương đương)",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 16,
+      "description": "Tủ đĩa lưu trữ SAN Dell PowerVault MD3820f,  16G Fibre Channel, 2U-24 drive (hoặc tương đương)",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 17,
+      "description": "SAN Switch Brocade 300 Ports-On-Demand 8Gb FC Switch (8 x 8G SFP + 16 Empty Ports) (hoặc tương đương)",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 18,
+      "description": "Tủ Rack Viet Rack 42U 19' (hoặc tương đương)",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 19,
+      "description": "Hệ thống UPS Eaton 9PX11KiRT 11kVa/10kW (hoặc tương đương)",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 20,
+      "description": "Hệ thống chống sét Emerson + APC (hoặc tương đương)",
+      "unit": "Hệ thống"
+    },
+    {
+      "product_id": 21,
+      "description": "Hệ thống báo cháy chay",
+      "unit": "Hệ thống"
+    },
+    {
+      "product_id": 22,
+      "description": "Hệ thống sàn nâng kỹ thuật Sàn nâng HPL Huatong cách tĩnh điện, chống cháy (hoặc tương đương)",
+      "unit": "m2"
+    },
+    {
+      "product_id": 23,
+      "description": "Hệ thống camera quan sát Avtech (hoặc tương đương)",
+      "unit": "Hệ thống"
+    },
+    {
+      "product_id": 24,
+      "description": "Hệ thống giám sát APC - ISX management and EMS system (hoặc tương đương)",
+      "unit": "Hệ thống"
+    },
+    {
+      "product_id": 25,
+      "description": "Hệ thống chiếu sáng, ổ cắm Sino (hoặc tương đương)",
+      "unit": "Hệ thống"
+    },
+    {
+      "product_id": 26,
+      "description": "Thi công hệ thống + cáp kết nối AMP (hoặc tương đương)",
+      "unit": "Hệ thống"
+    },
+    {
+      "product_id": 27,
+      "description": "HĐH cho máy chủ Microsoft (hoặc tương đương)",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 28,
+      "description": "Phần mềm backup Symatec Backup Exec 2014 (hoặc tương đương)",
+      "unit": "bộ"
+    },
+    {
+      "product_id": 29,
+      "description": "Phần mềm Antivirus cho máy chủ Kaspersky Anti-Virus for Windows File Server EE (hoặc tương đương)",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 30,
+      "description": "Thiết bị đầu cuối mã hóa video chuẩn Full HD 1080 Poycom Group 500",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 31,
+      "description": "Hệ thống camera tự động bắt người phát biểu EagleEye Director",
+      "unit": "Chiếc"
+    },
+    {
+      "product_id": 32,
+      "description": "Thiết bị bút vẽ điện tử Polycom UC Board",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 33,
+      "description": "Thiết bị ghi hình Polycom Media Suite Appliance Edition (2U Server)",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 34,
+      "description": "Micro đa hướng đặt bàn Polycom Microphone Array",
+      "unit": "Chiếc"
+    },
+    {
+      "product_id": 35,
+      "description": "Màn hình lớn hiển thị chuyên nghiệp 65' Sam Sung UA65JU6600",
+      "unit": "Chiếc"
+    },
+    {
+      "product_id": 36,
+      "description": "Màn hình lớn hiển thị 48' cho chủ tọa Sam Sung UA48J5100",
+      "unit": "Chiếc"
+    },
+    {
+      "product_id": 37,
+      "description": "Màn hình hiển thị dữ liệu trình chiếu kết hợp với bút điện tử 24' Sam Sung UA24J4100",
+      "unit": "Chiếc"
+    },
+    {
+      "product_id": 38,
+      "description": "Thiết bị phân phối tín hiệu hình ảnh ra các màn hình VM-8H của Kramer",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 39,
+      "description": "Bộ khuếch đại âm thanh 120W PLE-1MA120-EU của Bosch",
+      "unit": "Bộ"
+    },
+    {
+      "product_id": 40,
+      "description": "Loa cột treo tường 12W LB1-UW12-L/D của Bosch",
+      "unit": "Chiếc"
+    },
+    {
+      "product_id": 41,
+      "description": "Vật tư, phụ kiện ( dự kiến )",
+      "unit": "Gói"
+    },
+    {
+      "product_id": 42,
+      "description": "Đào tạo hướng dẫn sử dụng, vận chuyển và Nhân công, lắp đặt",
+      "unit": "Gói"
+    }
+  ],
+  "contractors": [
+    {
+      "contractor_id": 0,
+      "description": "Công Ty Cổ Phần Tin Học Hồng Phúc",
+      "quality": 0.16,
+      "relationship": 0.79,
+      "products": [
+        {
+          "product_id": 0,
+          "sell_price": 9065682,
+          "buy_price": 8145229,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "21/9/2015",
+              "rate": 0.02
+            },
+            {
+              "from": "21/9/2015",
+              "to": "13/2/2018",
+              "rate": 0.08
+            },
+            {
+              "from": "13/2/2018",
+              "to": "25/6/2018",
+              "rate": 0.07
+            },
+            {
+              "from": "25/6/2018",
+              "to": "6/9/2019",
+              "rate": 0.05
+            },
+            {
+              "from": "6/9/2019",
+              "to": "16/1/2020",
+              "rate": 0.1
+            },
+            {
+              "from": "16/1/2020",
+              "to": "31/12/2020",
+              "rate": 0.02
+            }
+          ]
+        },
+        {
+          "product_id": 1,
+          "sell_price": 10545300,
+          "buy_price": 9149000,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "31/12/2017",
+              "rate": 0.01
+            },
+            {
+              "from": "31/12/2017",
+              "to": "29/3/2018",
+              "rate": 0.06
+            },
+            {
+              "from": "29/3/2018",
+              "to": "12/4/2020",
+              "rate": 0.06
+            },
+            {
+              "from": "12/4/2020",
+              "to": "31/12/2020",
+              "rate": 0.1
+            }
+          ]
+        },
+        {
+          "product_id": 2,
+          "sell_price": 2526571,
+          "buy_price": 2504688,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "2/12/2016",
+              "rate": 0
+            },
+            {
+              "from": "2/12/2016",
+              "to": "11/6/2019",
+              "rate": 0
+            },
+            {
+              "from": "11/6/2019",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 3,
+          "sell_price": 8726916,
+          "buy_price": 7802366,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "9/7/2017",
+              "rate": 0.04
+            },
+            {
+              "from": "9/7/2017",
+              "to": "28/4/2019",
+              "rate": 0.01
+            },
+            {
+              "from": "28/4/2019",
+              "to": "31/12/2020",
+              "rate": 0.1
+            }
+          ]
+        },
+        {
+          "product_id": 4,
+          "sell_price": 2321242,
+          "buy_price": 2224476,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "11/6/2019",
+              "rate": 0.01
+            },
+            {
+              "from": "11/6/2019",
+              "to": "31/12/2020",
+              "rate": 0.03
+            }
+          ]
+        },
+        {
+          "product_id": 5,
+          "sell_price": 12802324,
+          "buy_price": 11410094,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "20/10/2019",
+              "rate": 0.08
+            },
+            {
+              "from": "20/10/2019",
+              "to": "29/2/2020",
+              "rate": 0.05
+            },
+            {
+              "from": "29/2/2020",
+              "to": "31/12/2020",
+              "rate": 0.02
+            }
+          ]
+        },
+        {
+          "product_id": 6,
+          "sell_price": 13416627,
+          "buy_price": 12823804,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "14/3/2016",
+              "rate": 0.01
+            },
+            {
+              "from": "14/3/2016",
+              "to": "28/2/2017",
+              "rate": 0.04
+            },
+            {
+              "from": "28/2/2017",
+              "to": "11/6/2019",
+              "rate": 0
+            },
+            {
+              "from": "11/6/2019",
+              "to": "22/8/2020",
+              "rate": 0.01
+            },
+            {
+              "from": "22/8/2020",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 7,
+          "sell_price": 18340244,
+          "buy_price": 15969054,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "15/1/2017",
+              "rate": 0.08
+            },
+            {
+              "from": "15/1/2017",
+              "to": "31/12/2020",
+              "rate": 0.08
+            }
+          ]
+        },
+        {
+          "product_id": 8,
+          "sell_price": 1730359,
+          "buy_price": 1605707,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "17/12/2015",
+              "rate": 0.03
+            },
+            {
+              "from": "17/12/2015",
+              "to": "5/9/2016",
+              "rate": 0.07
+            },
+            {
+              "from": "5/9/2016",
+              "to": "19/10/2016",
+              "rate": 0.06
+            },
+            {
+              "from": "19/10/2016",
+              "to": "9/7/2020",
+              "rate": 0.07
+            },
+            {
+              "from": "9/7/2020",
+              "to": "31/12/2020",
+              "rate": 0.04
+            }
+          ]
+        },
+        {
+          "product_id": 9,
+          "sell_price": 10598318,
+          "buy_price": 10506823,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "14/3/2016",
+              "rate": 0
+            },
+            {
+              "from": "14/3/2016",
+              "to": "5/9/2016",
+              "rate": 0
+            },
+            {
+              "from": "5/9/2016",
+              "to": "13/2/2018",
+              "rate": 0
+            },
+            {
+              "from": "13/2/2018",
+              "to": "21/9/2018",
+              "rate": 0
+            },
+            {
+              "from": "21/9/2018",
+              "to": "5/10/2020",
+              "rate": 0
+            },
+            {
+              "from": "5/10/2020",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 10,
+          "sell_price": 3088235,
+          "buy_price": 2352731,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/4/2017",
+              "rate": 0.06
+            },
+            {
+              "from": "12/4/2017",
+              "to": "18/11/2017",
+              "rate": 0.11
+            },
+            {
+              "from": "18/11/2017",
+              "to": "8/8/2018",
+              "rate": 0.22
+            },
+            {
+              "from": "8/8/2018",
+              "to": "17/12/2018",
+              "rate": 0.13
+            },
+            {
+              "from": "17/12/2018",
+              "to": "5/10/2020",
+              "rate": 0.17
+            },
+            {
+              "from": "5/10/2020",
+              "to": "31/12/2020",
+              "rate": 0.16
+            }
+          ]
+        },
+        {
+          "product_id": 11,
+          "sell_price": 105935502,
+          "buy_price": 96077273,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/5/2015",
+              "rate": 0.04
+            },
+            {
+              "from": "12/5/2015",
+              "to": "27/4/2016",
+              "rate": 0.04
+            },
+            {
+              "from": "27/4/2016",
+              "to": "11/6/2019",
+              "rate": 0.03
+            },
+            {
+              "from": "11/6/2019",
+              "to": "24/7/2019",
+              "rate": 0.08
+            },
+            {
+              "from": "24/7/2019",
+              "to": "31/12/2020",
+              "rate": 0.08
+            }
+          ]
+        },
+        {
+          "product_id": 12,
+          "sell_price": 31989989,
+          "buy_price": 29588866,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "9/7/2017",
+              "rate": 0.07
+            },
+            {
+              "from": "9/7/2017",
+              "to": "5/10/2017",
+              "rate": 0.01
+            },
+            {
+              "from": "5/10/2017",
+              "to": "9/7/2020",
+              "rate": 0.02
+            },
+            {
+              "from": "9/7/2020",
+              "to": "22/8/2020",
+              "rate": 0.07
+            },
+            {
+              "from": "22/8/2020",
+              "to": "31/12/2020",
+              "rate": 0.02
+            }
+          ]
+        },
+        {
+          "product_id": 13,
+          "sell_price": 411651908,
+          "buy_price": 330367392,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "28/2/2017",
+              "rate": 0.02
+            },
+            {
+              "from": "28/2/2017",
+              "to": "24/7/2019",
+              "rate": 0.16
+            },
+            {
+              "from": "24/7/2019",
+              "to": "31/12/2020",
+              "rate": 0.19
+            }
+          ]
+        },
+        {
+          "product_id": 14,
+          "sell_price": 249153220,
+          "buy_price": 226881539,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "28/2/2017",
+              "rate": 0.01
+            },
+            {
+              "from": "28/2/2017",
+              "to": "17/12/2018",
+              "rate": 0.01
+            },
+            {
+              "from": "17/12/2018",
+              "to": "15/3/2019",
+              "rate": 0.06
+            },
+            {
+              "from": "15/3/2019",
+              "to": "31/12/2020",
+              "rate": 0.06
+            }
+          ]
+        },
+        {
+          "product_id": 15,
+          "sell_price": 105480463,
+          "buy_price": 104233623,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "17/12/2015",
+              "rate": 0.01
+            },
+            {
+              "from": "17/12/2015",
+              "to": "15/3/2019",
+              "rate": 0
+            },
+            {
+              "from": "15/3/2019",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 16,
+          "sell_price": 239892663,
+          "buy_price": 239816382,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "19/10/2016",
+              "rate": 0
+            },
+            {
+              "from": "19/10/2016",
+              "to": "29/2/2020",
+              "rate": 0
+            },
+            {
+              "from": "29/2/2020",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 17,
+          "sell_price": 71737081,
+          "buy_price": 59695759,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "17/12/2015",
+              "rate": 0.15
+            },
+            {
+              "from": "17/12/2015",
+              "to": "19/10/2016",
+              "rate": 0.05
+            },
+            {
+              "from": "19/10/2016",
+              "to": "21/9/2018",
+              "rate": 0.05
+            },
+            {
+              "from": "21/9/2018",
+              "to": "20/10/2019",
+              "rate": 0.12
+            },
+            {
+              "from": "20/10/2019",
+              "to": "18/11/2020",
+              "rate": 0.11
+            },
+            {
+              "from": "18/11/2020",
+              "to": "31/12/2020",
+              "rate": 0.14
+            }
+          ]
+        },
+        {
+          "product_id": 18,
+          "sell_price": 58126511,
+          "buy_price": 53308367,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "15/1/2017",
+              "rate": 0.08
+            },
+            {
+              "from": "15/1/2017",
+              "to": "29/3/2018",
+              "rate": 0.02
+            },
+            {
+              "from": "29/3/2018",
+              "to": "5/10/2020",
+              "rate": 0.06
+            },
+            {
+              "from": "5/10/2020",
+              "to": "31/12/2020",
+              "rate": 0.05
+            }
+          ]
+        },
+        {
+          "product_id": 19,
+          "sell_price": 86992672,
+          "buy_price": 76013712,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "8/8/2015",
+              "rate": 0.06
+            },
+            {
+              "from": "8/8/2015",
+              "to": "3/11/2015",
+              "rate": 0.06
+            },
+            {
+              "from": "3/11/2015",
+              "to": "22/8/2020",
+              "rate": 0.12
+            },
+            {
+              "from": "22/8/2020",
+              "to": "31/12/2020",
+              "rate": 0.05
+            }
+          ]
+        },
+        {
+          "product_id": 20,
+          "sell_price": 54534320,
+          "buy_price": 54181556,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "3/11/2015",
+              "rate": 0
+            },
+            {
+              "from": "3/11/2015",
+              "to": "16/1/2020",
+              "rate": 0
+            },
+            {
+              "from": "16/1/2020",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 21,
+          "sell_price": 50288452,
+          "buy_price": 50115574,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "21/9/2015",
+              "rate": 0
+            },
+            {
+              "from": "21/9/2015",
+              "to": "12/4/2017",
+              "rate": 0
+            },
+            {
+              "from": "12/4/2017",
+              "to": "26/5/2017",
+              "rate": 0
+            },
+            {
+              "from": "26/5/2017",
+              "to": "6/9/2019",
+              "rate": 0
+            },
+            {
+              "from": "6/9/2019",
+              "to": "22/8/2020",
+              "rate": 0
+            },
+            {
+              "from": "22/8/2020",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 22,
+          "sell_price": 1787685,
+          "buy_price": 1632927,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "19/10/2016",
+              "rate": 0.02
+            },
+            {
+              "from": "19/10/2016",
+              "to": "28/2/2017",
+              "rate": 0.08
+            },
+            {
+              "from": "28/2/2017",
+              "to": "22/8/2017",
+              "rate": 0.06
+            },
+            {
+              "from": "22/8/2017",
+              "to": "28/4/2019",
+              "rate": 0.06
+            },
+            {
+              "from": "28/4/2019",
+              "to": "31/12/2020",
+              "rate": 0.06
+            }
+          ]
+        },
+        {
+          "product_id": 23,
+          "sell_price": 13788480,
+          "buy_price": 12574174,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "13/2/2018",
+              "rate": 0.05
+            },
+            {
+              "from": "13/2/2018",
+              "to": "28/4/2019",
+              "rate": 0.06
+            },
+            {
+              "from": "28/4/2019",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 24,
+          "sell_price": 55087590,
+          "buy_price": 52702770,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "10/6/2016",
+              "rate": 0.02
+            },
+            {
+              "from": "10/6/2016",
+              "to": "5/9/2016",
+              "rate": 0.02
+            },
+            {
+              "from": "5/9/2016",
+              "to": "2/12/2016",
+              "rate": 0.04
+            },
+            {
+              "from": "2/12/2016",
+              "to": "11/6/2019",
+              "rate": 0.02
+            },
+            {
+              "from": "11/6/2019",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 25,
+          "sell_price": 9118679,
+          "buy_price": 8622231,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "29/3/2015",
+              "rate": 0
+            },
+            {
+              "from": "29/3/2015",
+              "to": "18/11/2017",
+              "rate": 0.03
+            },
+            {
+              "from": "18/11/2017",
+              "to": "31/12/2020",
+              "rate": 0.02
+            }
+          ]
+        },
+        {
+          "product_id": 26,
+          "sell_price": 62279459,
+          "buy_price": 62163940,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "3/11/2018",
+              "rate": 0
+            },
+            {
+              "from": "3/11/2018",
+              "to": "30/1/2019",
+              "rate": 0
+            },
+            {
+              "from": "30/1/2019",
+              "to": "11/6/2019",
+              "rate": 0
+            },
+            {
+              "from": "11/6/2019",
+              "to": "12/4/2020",
+              "rate": 0
+            },
+            {
+              "from": "12/4/2020",
+              "to": "26/5/2020",
+              "rate": 0
+            },
+            {
+              "from": "26/5/2020",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 27,
+          "sell_price": 369673699,
+          "buy_price": 362742121,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "6/9/2019",
+              "rate": 0.01
+            },
+            {
+              "from": "6/9/2019",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 28,
+          "sell_price": 71951298,
+          "buy_price": 66454834,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "29/3/2015",
+              "rate": 0.06
+            },
+            {
+              "from": "29/3/2015",
+              "to": "26/5/2017",
+              "rate": 0.05
+            },
+            {
+              "from": "26/5/2017",
+              "to": "12/5/2018",
+              "rate": 0.03
+            },
+            {
+              "from": "12/5/2018",
+              "to": "20/10/2019",
+              "rate": 0.06
+            },
+            {
+              "from": "20/10/2019",
+              "to": "31/12/2020",
+              "rate": 0.02
+            }
+          ]
+        },
+        {
+          "product_id": 29,
+          "sell_price": 6170291,
+          "buy_price": 4769923,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "3/11/2015",
+              "rate": 0.16
+            },
+            {
+              "from": "3/11/2015",
+              "to": "6/9/2019",
+              "rate": 0.06
+            },
+            {
+              "from": "6/9/2019",
+              "to": "31/12/2020",
+              "rate": 0.13
+            }
+          ]
+        },
+        {
+          "product_id": 30,
+          "sell_price": 134815577,
+          "buy_price": 123710931,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "27/4/2016",
+              "rate": 0.02
+            },
+            {
+              "from": "27/4/2016",
+              "to": "31/12/2017",
+              "rate": 0.05
+            },
+            {
+              "from": "31/12/2017",
+              "to": "24/7/2019",
+              "rate": 0.06
+            },
+            {
+              "from": "24/7/2019",
+              "to": "26/5/2020",
+              "rate": 0.06
+            },
+            {
+              "from": "26/5/2020",
+              "to": "31/12/2020",
+              "rate": 0.04
+            }
+          ]
+        },
+        {
+          "product_id": 31,
+          "sell_price": 181631504,
+          "buy_price": 166449216,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "28/4/2019",
+              "rate": 0.08
+            },
+            {
+              "from": "28/4/2019",
+              "to": "11/6/2019",
+              "rate": 0.06
+            },
+            {
+              "from": "11/6/2019",
+              "to": "6/9/2019",
+              "rate": 0.01
+            },
+            {
+              "from": "6/9/2019",
+              "to": "31/12/2020",
+              "rate": 0.02
+            }
+          ]
+        },
+        {
+          "product_id": 32,
+          "sell_price": 24169785,
+          "buy_price": 21145191,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "13/2/2015",
+              "rate": 0.09
+            },
+            {
+              "from": "13/2/2015",
+              "to": "15/1/2017",
+              "rate": 0.06
+            },
+            {
+              "from": "15/1/2017",
+              "to": "17/12/2018",
+              "rate": 0.09
+            },
+            {
+              "from": "17/12/2018",
+              "to": "31/12/2020",
+              "rate": 0.05
+            }
+          ]
+        },
+        {
+          "product_id": 33,
+          "sell_price": 440518858,
+          "buy_price": 435500408,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "21/9/2015",
+              "rate": 0.01
+            },
+            {
+              "from": "21/9/2015",
+              "to": "2/12/2016",
+              "rate": 0
+            },
+            {
+              "from": "2/12/2016",
+              "to": "24/7/2019",
+              "rate": 0.01
+            },
+            {
+              "from": "24/7/2019",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 34,
+          "sell_price": 10152456,
+          "buy_price": 9143238,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "23/7/2016",
+              "rate": 0.07
+            },
+            {
+              "from": "23/7/2016",
+              "to": "3/12/2019",
+              "rate": 0.01
+            },
+            {
+              "from": "3/12/2019",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 35,
+          "sell_price": 46432652,
+          "buy_price": 44356919,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "13/2/2015",
+              "rate": 0.02
+            },
+            {
+              "from": "13/2/2015",
+              "to": "12/5/2018",
+              "rate": 0.03
+            },
+            {
+              "from": "12/5/2018",
+              "to": "25/6/2018",
+              "rate": 0.02
+            },
+            {
+              "from": "25/6/2018",
+              "to": "8/8/2018",
+              "rate": 0
+            },
+            {
+              "from": "8/8/2018",
+              "to": "18/11/2020",
+              "rate": 0.04
+            },
+            {
+              "from": "18/11/2020",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 36,
+          "sell_price": 11290898,
+          "buy_price": 10743944,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "19/10/2016",
+              "rate": 0
+            },
+            {
+              "from": "19/10/2016",
+              "to": "26/5/2017",
+              "rate": 0.04
+            },
+            {
+              "from": "26/5/2017",
+              "to": "29/3/2018",
+              "rate": 0.01
+            },
+            {
+              "from": "29/3/2018",
+              "to": "16/1/2020",
+              "rate": 0.04
+            },
+            {
+              "from": "16/1/2020",
+              "to": "31/12/2020",
+              "rate": 0.02
+            }
+          ]
+        },
+        {
+          "product_id": 37,
+          "sell_price": 3723800,
+          "buy_price": 2932945,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "13/2/2015",
+              "rate": 0.01
+            },
+            {
+              "from": "13/2/2015",
+              "to": "22/8/2017",
+              "rate": 0.21
+            },
+            {
+              "from": "22/8/2017",
+              "to": "31/12/2017",
+              "rate": 0.02
+            },
+            {
+              "from": "31/12/2017",
+              "to": "29/3/2018",
+              "rate": 0.19
+            },
+            {
+              "from": "29/3/2018",
+              "to": "11/6/2019",
+              "rate": 0.07
+            },
+            {
+              "from": "11/6/2019",
+              "to": "31/12/2020",
+              "rate": 0.17
+            }
+          ]
+        },
+        {
+          "product_id": 38,
+          "sell_price": 20385309,
+          "buy_price": 17651388,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/5/2015",
+              "rate": 0.09
+            },
+            {
+              "from": "12/5/2015",
+              "to": "21/9/2018",
+              "rate": 0.13
+            },
+            {
+              "from": "21/9/2018",
+              "to": "31/12/2020",
+              "rate": 0.11
+            }
+          ]
+        },
+        {
+          "product_id": 39,
+          "sell_price": 6499170,
+          "buy_price": 6259865,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "8/8/2015",
+              "rate": 0
+            },
+            {
+              "from": "8/8/2015",
+              "to": "13/2/2018",
+              "rate": 0.03
+            },
+            {
+              "from": "13/2/2018",
+              "to": "3/11/2018",
+              "rate": 0
+            },
+            {
+              "from": "3/11/2018",
+              "to": "11/6/2019",
+              "rate": 0
+            },
+            {
+              "from": "11/6/2019",
+              "to": "5/10/2020",
+              "rate": 0.02
+            },
+            {
+              "from": "5/10/2020",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 40,
+          "sell_price": 1070849,
+          "buy_price": 1008261,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "5/10/2017",
+              "rate": 0.05
+            },
+            {
+              "from": "5/10/2017",
+              "to": "6/9/2019",
+              "rate": 0.02
+            },
+            {
+              "from": "6/9/2019",
+              "to": "18/11/2020",
+              "rate": 0.03
+            },
+            {
+              "from": "18/11/2020",
+              "to": "31/12/2020",
+              "rate": 0.04
+            }
+          ]
+        },
+        {
+          "product_id": 41,
+          "sell_price": 18360577,
+          "buy_price": 16179677,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/5/2015",
+              "rate": 0.03
+            },
+            {
+              "from": "12/5/2015",
+              "to": "17/12/2015",
+              "rate": 0.07
+            },
+            {
+              "from": "17/12/2015",
+              "to": "31/12/2017",
+              "rate": 0.05
+            },
+            {
+              "from": "31/12/2017",
+              "to": "3/11/2018",
+              "rate": 0.08
+            },
+            {
+              "from": "3/11/2018",
+              "to": "26/5/2020",
+              "rate": 0
+            },
+            {
+              "from": "26/5/2020",
+              "to": "31/12/2020",
+              "rate": 0.07
+            }
+          ]
+        },
+        {
+          "product_id": 42,
+          "sell_price": 12776826,
+          "buy_price": 10453593,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "17/12/2015",
+              "rate": 0.03
+            },
+            {
+              "from": "17/12/2015",
+              "to": "30/1/2016",
+              "rate": 0.16
+            },
+            {
+              "from": "30/1/2016",
+              "to": "31/12/2020",
+              "rate": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contractor_id": 1,
+      "description": "IDC - Công Ty Cổ Phần Thương Mại IDC",
+      "quality": 0.77,
+      "relationship": 0.41,
+      "products": [
+        {
+          "product_id": 0,
+          "sell_price": 15168414,
+          "buy_price": 13269685,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "23/7/2016",
+              "rate": 0.05
+            },
+            {
+              "from": "23/7/2016",
+              "to": "31/12/2020",
+              "rate": 0.11
+            }
+          ]
+        },
+        {
+          "product_id": 1,
+          "sell_price": 19778311,
+          "buy_price": 13738527,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "13/2/2015",
+              "rate": 0.29
+            },
+            {
+              "from": "13/2/2015",
+              "to": "23/7/2016",
+              "rate": 0.15
+            },
+            {
+              "from": "23/7/2016",
+              "to": "30/1/2019",
+              "rate": 0.29
+            },
+            {
+              "from": "30/1/2019",
+              "to": "6/9/2019",
+              "rate": 0.26
+            },
+            {
+              "from": "6/9/2019",
+              "to": "16/1/2020",
+              "rate": 0.08
+            },
+            {
+              "from": "16/1/2020",
+              "to": "31/12/2020",
+              "rate": 0.24
+            }
+          ]
+        },
+        {
+          "product_id": 2,
+          "sell_price": 4758596,
+          "buy_price": 3265652,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "28/2/2017",
+              "rate": 0.25
+            },
+            {
+              "from": "28/2/2017",
+              "to": "31/12/2017",
+              "rate": 0.02
+            },
+            {
+              "from": "31/12/2017",
+              "to": "31/12/2020",
+              "rate": 0.07
+            }
+          ]
+        },
+        {
+          "product_id": 3,
+          "sell_price": 10908495,
+          "buy_price": 8977756,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "18/11/2017",
+              "rate": 0.07
+            },
+            {
+              "from": "18/11/2017",
+              "to": "12/5/2018",
+              "rate": 0.02
+            },
+            {
+              "from": "12/5/2018",
+              "to": "17/12/2018",
+              "rate": 0.11
+            },
+            {
+              "from": "17/12/2018",
+              "to": "30/1/2019",
+              "rate": 0.08
+            },
+            {
+              "from": "30/1/2019",
+              "to": "31/12/2020",
+              "rate": 0.13
+            }
+          ]
+        },
+        {
+          "product_id": 4,
+          "sell_price": 2385382,
+          "buy_price": 2193046,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "3/11/2015",
+              "rate": 0.05
+            },
+            {
+              "from": "3/11/2015",
+              "to": "31/12/2017",
+              "rate": 0.04
+            },
+            {
+              "from": "31/12/2017",
+              "to": "31/12/2020",
+              "rate": 0.08
+            }
+          ]
+        },
+        {
+          "product_id": 5,
+          "sell_price": 21437135,
+          "buy_price": 16283118,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "5/10/2017",
+              "rate": 0.05
+            },
+            {
+              "from": "5/10/2017",
+              "to": "3/11/2018",
+              "rate": 0.24
+            },
+            {
+              "from": "3/11/2018",
+              "to": "20/10/2019",
+              "rate": 0.22
+            },
+            {
+              "from": "20/10/2019",
+              "to": "3/12/2019",
+              "rate": 0.12
+            },
+            {
+              "from": "3/12/2019",
+              "to": "5/10/2020",
+              "rate": 0.02
+            },
+            {
+              "from": "5/10/2020",
+              "to": "31/12/2020",
+              "rate": 0.07
+            }
+          ]
+        },
+        {
+          "product_id": 6,
+          "sell_price": 27231932,
+          "buy_price": 18336804,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "3/11/2015",
+              "rate": 0
+            },
+            {
+              "from": "3/11/2015",
+              "to": "28/2/2017",
+              "rate": 0.3
+            },
+            {
+              "from": "28/2/2017",
+              "to": "12/5/2018",
+              "rate": 0.23
+            },
+            {
+              "from": "12/5/2018",
+              "to": "6/9/2019",
+              "rate": 0.1
+            },
+            {
+              "from": "6/9/2019",
+              "to": "31/12/2020",
+              "rate": 0.06
+            }
+          ]
+        },
+        {
+          "product_id": 7,
+          "sell_price": 30105712,
+          "buy_price": 26350538,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/5/2015",
+              "rate": 0.06
+            },
+            {
+              "from": "12/5/2015",
+              "to": "21/9/2015",
+              "rate": 0.12
+            },
+            {
+              "from": "21/9/2015",
+              "to": "23/7/2016",
+              "rate": 0.1
+            },
+            {
+              "from": "23/7/2016",
+              "to": "8/8/2018",
+              "rate": 0.07
+            },
+            {
+              "from": "8/8/2018",
+              "to": "3/12/2019",
+              "rate": 0.05
+            },
+            {
+              "from": "3/12/2019",
+              "to": "31/12/2020",
+              "rate": 0.09
+            }
+          ]
+        },
+        {
+          "product_id": 8,
+          "sell_price": 2961664,
+          "buy_price": 1433906,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "15/1/2017",
+              "rate": 0.46
+            },
+            {
+              "from": "15/1/2017",
+              "to": "12/4/2017",
+              "rate": 0.44
+            },
+            {
+              "from": "12/4/2017",
+              "to": "29/2/2020",
+              "rate": 0.39
+            },
+            {
+              "from": "29/2/2020",
+              "to": "31/12/2020",
+              "rate": 0.22
+            }
+          ]
+        },
+        {
+          "product_id": 9,
+          "sell_price": 20735164,
+          "buy_price": 16610964,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "15/1/2017",
+              "rate": 0.15
+            },
+            {
+              "from": "15/1/2017",
+              "to": "3/11/2018",
+              "rate": 0.06
+            },
+            {
+              "from": "3/11/2018",
+              "to": "16/1/2020",
+              "rate": 0.14
+            },
+            {
+              "from": "16/1/2020",
+              "to": "26/5/2020",
+              "rate": 0.07
+            },
+            {
+              "from": "26/5/2020",
+              "to": "31/12/2020",
+              "rate": 0.18
+            }
+          ]
+        },
+        {
+          "product_id": 10,
+          "sell_price": 5241534,
+          "buy_price": 3001753,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "6/9/2019",
+              "rate": 0.03
+            },
+            {
+              "from": "6/9/2019",
+              "to": "5/10/2020",
+              "rate": 0.37
+            },
+            {
+              "from": "5/10/2020",
+              "to": "31/12/2020",
+              "rate": 0.08
+            }
+          ]
+        },
+        {
+          "product_id": 11,
+          "sell_price": 159906950,
+          "buy_price": 132638553,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "13/2/2015",
+              "rate": 0.03
+            },
+            {
+              "from": "13/2/2015",
+              "to": "17/12/2015",
+              "rate": 0.02
+            },
+            {
+              "from": "17/12/2015",
+              "to": "5/10/2017",
+              "rate": 0.12
+            },
+            {
+              "from": "5/10/2017",
+              "to": "15/3/2019",
+              "rate": 0.13
+            },
+            {
+              "from": "15/3/2019",
+              "to": "31/12/2020",
+              "rate": 0.05
+            }
+          ]
+        },
+        {
+          "product_id": 12,
+          "sell_price": 53573050,
+          "buy_price": 39009336,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "25/6/2015",
+              "rate": 0.2
+            },
+            {
+              "from": "25/6/2015",
+              "to": "15/1/2017",
+              "rate": 0.11
+            },
+            {
+              "from": "15/1/2017",
+              "to": "8/8/2018",
+              "rate": 0.16
+            },
+            {
+              "from": "8/8/2018",
+              "to": "21/9/2018",
+              "rate": 0.03
+            },
+            {
+              "from": "21/9/2018",
+              "to": "3/12/2019",
+              "rate": 0.05
+            },
+            {
+              "from": "3/12/2019",
+              "to": "31/12/2020",
+              "rate": 0.27
+            }
+          ]
+        },
+        {
+          "product_id": 13,
+          "sell_price": 788333580,
+          "buy_price": 645652726,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "27/4/2016",
+              "rate": 0.07
+            },
+            {
+              "from": "27/4/2016",
+              "to": "28/2/2017",
+              "rate": 0.16
+            },
+            {
+              "from": "28/2/2017",
+              "to": "22/8/2017",
+              "rate": 0.08
+            },
+            {
+              "from": "22/8/2017",
+              "to": "9/7/2020",
+              "rate": 0.12
+            },
+            {
+              "from": "9/7/2020",
+              "to": "31/12/2020",
+              "rate": 0.13
+            }
+          ]
+        },
+        {
+          "product_id": 14,
+          "sell_price": 332940274,
+          "buy_price": 272737100,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "21/9/2015",
+              "rate": 0.15
+            },
+            {
+              "from": "21/9/2015",
+              "to": "23/7/2016",
+              "rate": 0.16
+            },
+            {
+              "from": "23/7/2016",
+              "to": "3/12/2019",
+              "rate": 0.16
+            },
+            {
+              "from": "3/12/2019",
+              "to": "31/12/2020",
+              "rate": 0.13
+            }
+          ]
+        },
+        {
+          "product_id": 15,
+          "sell_price": 95973445,
+          "buy_price": 93743966,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/5/2015",
+              "rate": 0
+            },
+            {
+              "from": "12/5/2015",
+              "to": "14/3/2016",
+              "rate": 0.01
+            },
+            {
+              "from": "14/3/2016",
+              "to": "19/10/2016",
+              "rate": 0
+            },
+            {
+              "from": "19/10/2016",
+              "to": "18/11/2017",
+              "rate": 0.02
+            },
+            {
+              "from": "18/11/2017",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 16,
+          "sell_price": 425171556,
+          "buy_price": 328096793,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "8/8/2015",
+              "rate": 0.02
+            },
+            {
+              "from": "8/8/2015",
+              "to": "18/11/2017",
+              "rate": 0.04
+            },
+            {
+              "from": "18/11/2017",
+              "to": "29/3/2018",
+              "rate": 0.06
+            },
+            {
+              "from": "29/3/2018",
+              "to": "31/12/2020",
+              "rate": 0.21
+            }
+          ]
+        },
+        {
+          "product_id": 17,
+          "sell_price": 63858608,
+          "buy_price": 61140060,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "29/3/2015",
+              "rate": 0.01
+            },
+            {
+              "from": "29/3/2015",
+              "to": "30/1/2016",
+              "rate": 0.02
+            },
+            {
+              "from": "30/1/2016",
+              "to": "5/9/2016",
+              "rate": 0.02
+            },
+            {
+              "from": "5/9/2016",
+              "to": "2/12/2016",
+              "rate": 0.03
+            },
+            {
+              "from": "2/12/2016",
+              "to": "28/4/2019",
+              "rate": 0.01
+            },
+            {
+              "from": "28/4/2019",
+              "to": "31/12/2020",
+              "rate": 0.04
+            }
+          ]
+        },
+        {
+          "product_id": 18,
+          "sell_price": 122775763,
+          "buy_price": 56032439,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "9/7/2017",
+              "rate": 0.38
+            },
+            {
+              "from": "9/7/2017",
+              "to": "3/12/2019",
+              "rate": 0.24
+            },
+            {
+              "from": "3/12/2019",
+              "to": "12/4/2020",
+              "rate": 0.36
+            },
+            {
+              "from": "12/4/2020",
+              "to": "31/12/2020",
+              "rate": 0.48
+            }
+          ]
+        },
+        {
+          "product_id": 19,
+          "sell_price": 119890835,
+          "buy_price": 77052426,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/5/2018",
+              "rate": 0.24
+            },
+            {
+              "from": "12/5/2018",
+              "to": "21/9/2018",
+              "rate": 0.02
+            },
+            {
+              "from": "21/9/2018",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 20,
+          "sell_price": 112643821,
+          "buy_price": 75712932,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "8/8/2018",
+              "rate": 0.19
+            },
+            {
+              "from": "8/8/2018",
+              "to": "26/5/2020",
+              "rate": 0.09
+            },
+            {
+              "from": "26/5/2020",
+              "to": "18/11/2020",
+              "rate": 0.3
+            },
+            {
+              "from": "18/11/2020",
+              "to": "31/12/2020",
+              "rate": 0.22
+            }
+          ]
+        },
+        {
+          "product_id": 21,
+          "sell_price": 59674816,
+          "buy_price": 46590860,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "13/2/2015",
+              "rate": 0.16
+            },
+            {
+              "from": "13/2/2015",
+              "to": "15/3/2019",
+              "rate": 0.18
+            },
+            {
+              "from": "15/3/2019",
+              "to": "29/2/2020",
+              "rate": 0.02
+            },
+            {
+              "from": "29/2/2020",
+              "to": "31/12/2020",
+              "rate": 0.15
+            }
+          ]
+        },
+        {
+          "product_id": 22,
+          "sell_price": 1810407,
+          "buy_price": 1643030,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "9/7/2017",
+              "rate": 0.05
+            },
+            {
+              "from": "9/7/2017",
+              "to": "31/12/2020",
+              "rate": 0.02
+            }
+          ]
+        },
+        {
+          "product_id": 23,
+          "sell_price": 31111402,
+          "buy_price": 14840509,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "25/6/2018",
+              "rate": 0.46
+            },
+            {
+              "from": "25/6/2018",
+              "to": "15/3/2019",
+              "rate": 0.04
+            },
+            {
+              "from": "15/3/2019",
+              "to": "31/12/2020",
+              "rate": 0.05
+            }
+          ]
+        },
+        {
+          "product_id": 24,
+          "sell_price": 111748957,
+          "buy_price": 65629415,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "3/11/2015",
+              "rate": 0.25
+            },
+            {
+              "from": "3/11/2015",
+              "to": "14/3/2016",
+              "rate": 0.24
+            },
+            {
+              "from": "14/3/2016",
+              "to": "8/8/2018",
+              "rate": 0.09
+            },
+            {
+              "from": "8/8/2018",
+              "to": "31/12/2020",
+              "rate": 0.14
+            }
+          ]
+        },
+        {
+          "product_id": 25,
+          "sell_price": 17447025,
+          "buy_price": 12066745,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "15/3/2019",
+              "rate": 0.03
+            },
+            {
+              "from": "15/3/2019",
+              "to": "20/10/2019",
+              "rate": 0.21
+            },
+            {
+              "from": "20/10/2019",
+              "to": "31/12/2020",
+              "rate": 0.29
+            }
+          ]
+        },
+        {
+          "product_id": 26,
+          "sell_price": 56989922,
+          "buy_price": 53897377,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "28/4/2019",
+              "rate": 0.01
+            },
+            {
+              "from": "28/4/2019",
+              "to": "9/7/2020",
+              "rate": 0.01
+            },
+            {
+              "from": "9/7/2020",
+              "to": "31/12/2020",
+              "rate": 0.03
+            }
+          ]
+        },
+        {
+          "product_id": 27,
+          "sell_price": 563453100,
+          "buy_price": 387940806,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "8/8/2015",
+              "rate": 0.26
+            },
+            {
+              "from": "8/8/2015",
+              "to": "6/9/2019",
+              "rate": 0.06
+            },
+            {
+              "from": "6/9/2019",
+              "to": "22/8/2020",
+              "rate": 0.21
+            },
+            {
+              "from": "22/8/2020",
+              "to": "31/12/2020",
+              "rate": 0.22
+            }
+          ]
+        },
+        {
+          "product_id": 28,
+          "sell_price": 95050956,
+          "buy_price": 70140695,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "21/9/2015",
+              "rate": 0.19
+            },
+            {
+              "from": "21/9/2015",
+              "to": "12/4/2017",
+              "rate": 0.01
+            },
+            {
+              "from": "12/4/2017",
+              "to": "18/11/2017",
+              "rate": 0.13
+            },
+            {
+              "from": "18/11/2017",
+              "to": "5/10/2020",
+              "rate": 0.21
+            },
+            {
+              "from": "5/10/2020",
+              "to": "31/12/2020",
+              "rate": 0.19
+            }
+          ]
+        },
+        {
+          "product_id": 29,
+          "sell_price": 10616413,
+          "buy_price": 6182564,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "29/3/2015",
+              "rate": 0.41
+            },
+            {
+              "from": "29/3/2015",
+              "to": "21/9/2015",
+              "rate": 0.01
+            },
+            {
+              "from": "21/9/2015",
+              "to": "5/9/2016",
+              "rate": 0.29
+            },
+            {
+              "from": "5/9/2016",
+              "to": "31/12/2020",
+              "rate": 0.23
+            }
+          ]
+        },
+        {
+          "product_id": 30,
+          "sell_price": 272609454,
+          "buy_price": 226834487,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "8/8/2018",
+              "rate": 0
+            },
+            {
+              "from": "8/8/2018",
+              "to": "24/7/2019",
+              "rate": 0.09
+            },
+            {
+              "from": "24/7/2019",
+              "to": "31/12/2020",
+              "rate": 0.12
+            }
+          ]
+        },
+        {
+          "product_id": 31,
+          "sell_price": 244635469,
+          "buy_price": 228914133,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "8/8/2015",
+              "rate": 0.01
+            },
+            {
+              "from": "8/8/2015",
+              "to": "14/3/2016",
+              "rate": 0.01
+            },
+            {
+              "from": "14/3/2016",
+              "to": "29/3/2018",
+              "rate": 0.02
+            },
+            {
+              "from": "29/3/2018",
+              "to": "30/1/2019",
+              "rate": 0.03
+            },
+            {
+              "from": "30/1/2019",
+              "to": "22/8/2020",
+              "rate": 0
+            },
+            {
+              "from": "22/8/2020",
+              "to": "31/12/2020",
+              "rate": 0.05
+            }
+          ]
+        },
+        {
+          "product_id": 32,
+          "sell_price": 45375379,
+          "buy_price": 38995321,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "25/6/2018",
+              "rate": 0.07
+            },
+            {
+              "from": "25/6/2018",
+              "to": "29/2/2020",
+              "rate": 0.13
+            },
+            {
+              "from": "29/2/2020",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 33,
+          "sell_price": 739237470,
+          "buy_price": 456901236,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "15/1/2017",
+              "rate": 0.28
+            },
+            {
+              "from": "15/1/2017",
+              "to": "3/11/2018",
+              "rate": 0.22
+            },
+            {
+              "from": "3/11/2018",
+              "to": "31/12/2020",
+              "rate": 0.02
+            }
+          ]
+        },
+        {
+          "product_id": 34,
+          "sell_price": 16985139,
+          "buy_price": 10657247,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "29/3/2015",
+              "rate": 0.22
+            },
+            {
+              "from": "29/3/2015",
+              "to": "25/6/2015",
+              "rate": 0.32
+            },
+            {
+              "from": "25/6/2015",
+              "to": "31/12/2020",
+              "rate": 0.34
+            }
+          ]
+        },
+        {
+          "product_id": 35,
+          "sell_price": 71174234,
+          "buy_price": 43985487,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/5/2015",
+              "rate": 0.27
+            },
+            {
+              "from": "12/5/2015",
+              "to": "23/7/2016",
+              "rate": 0.21
+            },
+            {
+              "from": "23/7/2016",
+              "to": "15/1/2017",
+              "rate": 0.32
+            },
+            {
+              "from": "15/1/2017",
+              "to": "22/8/2017",
+              "rate": 0.07
+            },
+            {
+              "from": "22/8/2017",
+              "to": "29/3/2018",
+              "rate": 0.05
+            },
+            {
+              "from": "29/3/2018",
+              "to": "31/12/2020",
+              "rate": 0.2
+            }
+          ]
+        },
+        {
+          "product_id": 36,
+          "sell_price": 17599998,
+          "buy_price": 14476749,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "19/10/2016",
+              "rate": 0.16
+            },
+            {
+              "from": "19/10/2016",
+              "to": "9/7/2020",
+              "rate": 0.14
+            },
+            {
+              "from": "9/7/2020",
+              "to": "31/12/2020",
+              "rate": 0.07
+            }
+          ]
+        },
+        {
+          "product_id": 37,
+          "sell_price": 6707492,
+          "buy_price": 5741224,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "15/1/2017",
+              "rate": 0.12
+            },
+            {
+              "from": "15/1/2017",
+              "to": "18/11/2020",
+              "rate": 0.05
+            },
+            {
+              "from": "18/11/2020",
+              "to": "31/12/2020",
+              "rate": 0.09
+            }
+          ]
+        },
+        {
+          "product_id": 38,
+          "sell_price": 31293336,
+          "buy_price": 27317767,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "19/10/2016",
+              "rate": 0.01
+            },
+            {
+              "from": "19/10/2016",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 39,
+          "sell_price": 14408776,
+          "buy_price": 11870868,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "25/6/2015",
+              "rate": 0.11
+            },
+            {
+              "from": "25/6/2015",
+              "to": "13/2/2018",
+              "rate": 0.06
+            },
+            {
+              "from": "13/2/2018",
+              "to": "30/1/2019",
+              "rate": 0.03
+            },
+            {
+              "from": "30/1/2019",
+              "to": "28/4/2019",
+              "rate": 0.08
+            },
+            {
+              "from": "28/4/2019",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 40,
+          "sell_price": 1750519,
+          "buy_price": 1298910,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "3/11/2015",
+              "rate": 0.2
+            },
+            {
+              "from": "3/11/2015",
+              "to": "31/12/2017",
+              "rate": 0.21
+            },
+            {
+              "from": "31/12/2017",
+              "to": "13/2/2018",
+              "rate": 0.18
+            },
+            {
+              "from": "13/2/2018",
+              "to": "15/3/2019",
+              "rate": 0.2
+            },
+            {
+              "from": "15/3/2019",
+              "to": "11/6/2019",
+              "rate": 0.18
+            },
+            {
+              "from": "11/6/2019",
+              "to": "31/12/2020",
+              "rate": 0.1
+            }
+          ]
+        },
+        {
+          "product_id": 41,
+          "sell_price": 36356702,
+          "buy_price": 16325532,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "23/7/2016",
+              "rate": 0.54
+            },
+            {
+              "from": "23/7/2016",
+              "to": "22/8/2017",
+              "rate": 0.4
+            },
+            {
+              "from": "22/8/2017",
+              "to": "8/8/2018",
+              "rate": 0.49
+            },
+            {
+              "from": "8/8/2018",
+              "to": "6/9/2019",
+              "rate": 0.06
+            },
+            {
+              "from": "6/9/2019",
+              "to": "31/12/2020",
+              "rate": 0.42
+            }
+          ]
+        },
+        {
+          "product_id": 42,
+          "sell_price": 20299766,
+          "buy_price": 17896751,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "29/3/2015",
+              "rate": 0.07
+            },
+            {
+              "from": "29/3/2015",
+              "to": "11/6/2019",
+              "rate": 0.1
+            },
+            {
+              "from": "11/6/2019",
+              "to": "31/12/2020",
+              "rate": 0.03
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contractor_id": 2,
+      "description": "Công Ty TNHH Công Nghệ Thông Tin Việt Nam",
+      "quality": 0.19,
+      "relationship": 0.44,
+      "products": [
+        {
+          "product_id": 0,
+          "sell_price": 9742701,
+          "buy_price": 8519375,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "30/1/2016",
+              "rate": 0.1
+            },
+            {
+              "from": "30/1/2016",
+              "to": "31/12/2020",
+              "rate": 0.1
+            }
+          ]
+        },
+        {
+          "product_id": 1,
+          "sell_price": 10902226,
+          "buy_price": 9426288,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "19/10/2016",
+              "rate": 0.08
+            },
+            {
+              "from": "19/10/2016",
+              "to": "31/12/2020",
+              "rate": 0.09
+            }
+          ]
+        },
+        {
+          "product_id": 2,
+          "sell_price": 2630835,
+          "buy_price": 2377998,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "10/6/2016",
+              "rate": 0.01
+            },
+            {
+              "from": "10/6/2016",
+              "to": "23/7/2016",
+              "rate": 0.08
+            },
+            {
+              "from": "23/7/2016",
+              "to": "13/2/2018",
+              "rate": 0.09
+            },
+            {
+              "from": "13/2/2018",
+              "to": "29/3/2018",
+              "rate": 0.04
+            },
+            {
+              "from": "29/3/2018",
+              "to": "30/1/2019",
+              "rate": 0.05
+            },
+            {
+              "from": "30/1/2019",
+              "to": "31/12/2020",
+              "rate": 0.09
+            }
+          ]
+        },
+        {
+          "product_id": 3,
+          "sell_price": 8863376,
+          "buy_price": 7962518,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "17/12/2015",
+              "rate": 0.04
+            },
+            {
+              "from": "17/12/2015",
+              "to": "13/2/2018",
+              "rate": 0.01
+            },
+            {
+              "from": "13/2/2018",
+              "to": "22/8/2020",
+              "rate": 0.01
+            },
+            {
+              "from": "22/8/2020",
+              "to": "31/12/2020",
+              "rate": 0.08
+            }
+          ]
+        },
+        {
+          "product_id": 4,
+          "sell_price": 2061027,
+          "buy_price": 2037794,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "28/2/2017",
+              "rate": 0
+            },
+            {
+              "from": "28/2/2017",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 5,
+          "sell_price": 11105389,
+          "buy_price": 10663098,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "21/9/2015",
+              "rate": 0.03
+            },
+            {
+              "from": "21/9/2015",
+              "to": "21/9/2018",
+              "rate": 0.02
+            },
+            {
+              "from": "21/9/2018",
+              "to": "28/4/2019",
+              "rate": 0.03
+            },
+            {
+              "from": "28/4/2019",
+              "to": "22/8/2020",
+              "rate": 0.02
+            },
+            {
+              "from": "22/8/2020",
+              "to": "31/12/2020",
+              "rate": 0.03
+            }
+          ]
+        },
+        {
+          "product_id": 6,
+          "sell_price": 15043699,
+          "buy_price": 13975196,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "18/11/2020",
+              "rate": 0.01
+            },
+            {
+              "from": "18/11/2020",
+              "to": "31/12/2020",
+              "rate": 0.02
+            }
+          ]
+        },
+        {
+          "product_id": 7,
+          "sell_price": 18547671,
+          "buy_price": 16719601,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "17/12/2015",
+              "rate": 0.04
+            },
+            {
+              "from": "17/12/2015",
+              "to": "20/10/2019",
+              "rate": 0.07
+            },
+            {
+              "from": "20/10/2019",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 8,
+          "sell_price": 1531124,
+          "buy_price": 1491848,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/5/2018",
+              "rate": 0.01
+            },
+            {
+              "from": "12/5/2018",
+              "to": "20/10/2019",
+              "rate": 0.02
+            },
+            {
+              "from": "20/10/2019",
+              "to": "31/12/2020",
+              "rate": 0.02
+            }
+          ]
+        },
+        {
+          "product_id": 9,
+          "sell_price": 11131636,
+          "buy_price": 10629961,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "28/2/2017",
+              "rate": 0.04
+            },
+            {
+              "from": "28/2/2017",
+              "to": "9/7/2017",
+              "rate": 0.01
+            },
+            {
+              "from": "9/7/2017",
+              "to": "13/2/2018",
+              "rate": 0.04
+            },
+            {
+              "from": "13/2/2018",
+              "to": "22/8/2020",
+              "rate": 0.03
+            },
+            {
+              "from": "22/8/2020",
+              "to": "31/12/2020",
+              "rate": 0.04
+            }
+          ]
+        },
+        {
+          "product_id": 10,
+          "sell_price": 3124671,
+          "buy_price": 3093950,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "11/6/2019",
+              "rate": 0
+            },
+            {
+              "from": "11/6/2019",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 11,
+          "sell_price": 127024407,
+          "buy_price": 125079260,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "8/8/2015",
+              "rate": 0
+            },
+            {
+              "from": "8/8/2015",
+              "to": "19/10/2016",
+              "rate": 0.01
+            },
+            {
+              "from": "19/10/2016",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 12,
+          "sell_price": 34225922,
+          "buy_price": 32024188,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/4/2017",
+              "rate": 0.05
+            },
+            {
+              "from": "12/4/2017",
+              "to": "29/2/2020",
+              "rate": 0.01
+            },
+            {
+              "from": "29/2/2020",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 13,
+          "sell_price": 374568736,
+          "buy_price": 345565762,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "10/6/2016",
+              "rate": 0.07
+            },
+            {
+              "from": "10/6/2016",
+              "to": "18/11/2017",
+              "rate": 0.03
+            },
+            {
+              "from": "18/11/2017",
+              "to": "31/12/2020",
+              "rate": 0.06
+            }
+          ]
+        },
+        {
+          "product_id": 14,
+          "sell_price": 256865205,
+          "buy_price": 230501265,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "3/11/2015",
+              "rate": 0.05
+            },
+            {
+              "from": "3/11/2015",
+              "to": "31/12/2017",
+              "rate": 0.04
+            },
+            {
+              "from": "31/12/2017",
+              "to": "13/2/2018",
+              "rate": 0.05
+            },
+            {
+              "from": "13/2/2018",
+              "to": "12/4/2020",
+              "rate": 0.05
+            },
+            {
+              "from": "12/4/2020",
+              "to": "9/7/2020",
+              "rate": 0.03
+            },
+            {
+              "from": "9/7/2020",
+              "to": "31/12/2020",
+              "rate": 0.03
+            }
+          ]
+        },
+        {
+          "product_id": 15,
+          "sell_price": 98579141,
+          "buy_price": 84185591,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "3/11/2018",
+              "rate": 0.02
+            },
+            {
+              "from": "3/11/2018",
+              "to": "3/12/2019",
+              "rate": 0.09
+            },
+            {
+              "from": "3/12/2019",
+              "to": "31/12/2020",
+              "rate": 0.08
+            }
+          ]
+        },
+        {
+          "product_id": 16,
+          "sell_price": 313515516,
+          "buy_price": 282339789,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "26/5/2017",
+              "rate": 0.03
+            },
+            {
+              "from": "26/5/2017",
+              "to": "29/3/2018",
+              "rate": 0.06
+            },
+            {
+              "from": "29/3/2018",
+              "to": "9/7/2020",
+              "rate": 0.08
+            },
+            {
+              "from": "9/7/2020",
+              "to": "31/12/2020",
+              "rate": 0.08
+            }
+          ]
+        },
+        {
+          "product_id": 17,
+          "sell_price": 75563272,
+          "buy_price": 65719168,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "14/3/2016",
+              "rate": 0.13
+            },
+            {
+              "from": "14/3/2016",
+              "to": "31/12/2020",
+              "rate": 0.04
+            }
+          ]
+        },
+        {
+          "product_id": 18,
+          "sell_price": 65397079,
+          "buy_price": 50929757,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "25/6/2015",
+              "rate": 0.1
+            },
+            {
+              "from": "25/6/2015",
+              "to": "30/1/2016",
+              "rate": 0.17
+            },
+            {
+              "from": "30/1/2016",
+              "to": "26/5/2020",
+              "rate": 0.17
+            },
+            {
+              "from": "26/5/2020",
+              "to": "31/12/2020",
+              "rate": 0.07
+            }
+          ]
+        },
+        {
+          "product_id": 19,
+          "sell_price": 76289515,
+          "buy_price": 73831073,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/5/2015",
+              "rate": 0.03
+            },
+            {
+              "from": "12/5/2015",
+              "to": "27/4/2016",
+              "rate": 0.01
+            },
+            {
+              "from": "27/4/2016",
+              "to": "23/7/2016",
+              "rate": 0.02
+            },
+            {
+              "from": "23/7/2016",
+              "to": "28/2/2017",
+              "rate": 0.03
+            },
+            {
+              "from": "28/2/2017",
+              "to": "5/10/2020",
+              "rate": 0.01
+            },
+            {
+              "from": "5/10/2020",
+              "to": "31/12/2020",
+              "rate": 0.03
+            }
+          ]
+        },
+        {
+          "product_id": 20,
+          "sell_price": 63753225,
+          "buy_price": 59226392,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "3/11/2015",
+              "rate": 0.04
+            },
+            {
+              "from": "3/11/2015",
+              "to": "3/11/2018",
+              "rate": 0.01
+            },
+            {
+              "from": "3/11/2018",
+              "to": "26/5/2020",
+              "rate": 0.06
+            },
+            {
+              "from": "26/5/2020",
+              "to": "5/10/2020",
+              "rate": 0.05
+            },
+            {
+              "from": "5/10/2020",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 21,
+          "sell_price": 57845673,
+          "buy_price": 46568816,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "21/9/2018",
+              "rate": 0.02
+            },
+            {
+              "from": "21/9/2018",
+              "to": "31/12/2020",
+              "rate": 0.15
+            }
+          ]
+        },
+        {
+          "product_id": 22,
+          "sell_price": 1727841,
+          "buy_price": 1540713,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "25/6/2015",
+              "rate": 0.08
+            },
+            {
+              "from": "25/6/2015",
+              "to": "19/10/2016",
+              "rate": 0.07
+            },
+            {
+              "from": "19/10/2016",
+              "to": "20/10/2019",
+              "rate": 0.05
+            },
+            {
+              "from": "20/10/2019",
+              "to": "5/10/2020",
+              "rate": 0.02
+            },
+            {
+              "from": "5/10/2020",
+              "to": "31/12/2020",
+              "rate": 0.03
+            }
+          ]
+        },
+        {
+          "product_id": 23,
+          "sell_price": 17047386,
+          "buy_price": 14341293,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "21/9/2015",
+              "rate": 0.03
+            },
+            {
+              "from": "21/9/2015",
+              "to": "17/12/2015",
+              "rate": 0.01
+            },
+            {
+              "from": "17/12/2015",
+              "to": "18/11/2017",
+              "rate": 0.09
+            },
+            {
+              "from": "18/11/2017",
+              "to": "31/12/2020",
+              "rate": 0.03
+            }
+          ]
+        },
+        {
+          "product_id": 24,
+          "sell_price": 67782202,
+          "buy_price": 55297408,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "3/12/2019",
+              "rate": 0.01
+            },
+            {
+              "from": "3/12/2019",
+              "to": "31/12/2020",
+              "rate": 0.06
+            }
+          ]
+        },
+        {
+          "product_id": 25,
+          "sell_price": 10176982,
+          "buy_price": 9050353,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "23/7/2016",
+              "rate": 0.1
+            },
+            {
+              "from": "23/7/2016",
+              "to": "2/12/2016",
+              "rate": 0.02
+            },
+            {
+              "from": "2/12/2016",
+              "to": "31/12/2020",
+              "rate": 0.09
+            }
+          ]
+        },
+        {
+          "product_id": 26,
+          "sell_price": 62319598,
+          "buy_price": 56722954,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "13/2/2015",
+              "rate": 0.02
+            },
+            {
+              "from": "13/2/2015",
+              "to": "21/9/2015",
+              "rate": 0.08
+            },
+            {
+              "from": "21/9/2015",
+              "to": "3/12/2019",
+              "rate": 0.01
+            },
+            {
+              "from": "3/12/2019",
+              "to": "31/12/2020",
+              "rate": 0.02
+            }
+          ]
+        },
+        {
+          "product_id": 27,
+          "sell_price": 404458794,
+          "buy_price": 359051369,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "30/1/2019",
+              "rate": 0.05
+            },
+            {
+              "from": "30/1/2019",
+              "to": "15/3/2019",
+              "rate": 0.02
+            },
+            {
+              "from": "15/3/2019",
+              "to": "29/2/2020",
+              "rate": 0.03
+            },
+            {
+              "from": "29/2/2020",
+              "to": "31/12/2020",
+              "rate": 0.08
+            }
+          ]
+        },
+        {
+          "product_id": 28,
+          "sell_price": 82342574,
+          "buy_price": 70937620,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "28/4/2019",
+              "rate": 0.02
+            },
+            {
+              "from": "28/4/2019",
+              "to": "29/2/2020",
+              "rate": 0.04
+            },
+            {
+              "from": "29/2/2020",
+              "to": "31/12/2020",
+              "rate": 0.13
+            }
+          ]
+        },
+        {
+          "product_id": 29,
+          "sell_price": 6295642,
+          "buy_price": 6006509,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "8/8/2015",
+              "rate": 0.01
+            },
+            {
+              "from": "8/8/2015",
+              "to": "3/11/2015",
+              "rate": 0.01
+            },
+            {
+              "from": "3/11/2015",
+              "to": "24/7/2019",
+              "rate": 0.01
+            },
+            {
+              "from": "24/7/2019",
+              "to": "16/1/2020",
+              "rate": 0.02
+            },
+            {
+              "from": "16/1/2020",
+              "to": "31/12/2020",
+              "rate": 0.04
+            }
+          ]
+        },
+        {
+          "product_id": 30,
+          "sell_price": 136382088,
+          "buy_price": 129120795,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "25/6/2015",
+              "rate": 0.03
+            },
+            {
+              "from": "25/6/2015",
+              "to": "31/12/2020",
+              "rate": 0.04
+            }
+          ]
+        },
+        {
+          "product_id": 31,
+          "sell_price": 164378351,
+          "buy_price": 158731487,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/5/2015",
+              "rate": 0.03
+            },
+            {
+              "from": "12/5/2015",
+              "to": "12/4/2017",
+              "rate": 0.03
+            },
+            {
+              "from": "12/4/2017",
+              "to": "8/8/2018",
+              "rate": 0.03
+            },
+            {
+              "from": "8/8/2018",
+              "to": "3/11/2018",
+              "rate": 0.02
+            },
+            {
+              "from": "3/11/2018",
+              "to": "18/11/2020",
+              "rate": 0.02
+            },
+            {
+              "from": "18/11/2020",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 32,
+          "sell_price": 23157903,
+          "buy_price": 22831683,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "3/11/2015",
+              "rate": 0.01
+            },
+            {
+              "from": "3/11/2015",
+              "to": "26/5/2017",
+              "rate": 0
+            },
+            {
+              "from": "26/5/2017",
+              "to": "18/11/2017",
+              "rate": 0.01
+            },
+            {
+              "from": "18/11/2017",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 33,
+          "sell_price": 476850646,
+          "buy_price": 361896315,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "3/11/2015",
+              "rate": 0.18
+            },
+            {
+              "from": "3/11/2015",
+              "to": "23/7/2016",
+              "rate": 0.07
+            },
+            {
+              "from": "23/7/2016",
+              "to": "22/8/2017",
+              "rate": 0.21
+            },
+            {
+              "from": "22/8/2017",
+              "to": "24/7/2019",
+              "rate": 0.08
+            },
+            {
+              "from": "24/7/2019",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 34,
+          "sell_price": 10879920,
+          "buy_price": 9802061,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "13/2/2015",
+              "rate": 0.03
+            },
+            {
+              "from": "13/2/2015",
+              "to": "14/3/2016",
+              "rate": 0.04
+            },
+            {
+              "from": "14/3/2016",
+              "to": "23/7/2016",
+              "rate": 0
+            },
+            {
+              "from": "23/7/2016",
+              "to": "24/7/2019",
+              "rate": 0
+            },
+            {
+              "from": "24/7/2019",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 35,
+          "sell_price": 57149775,
+          "buy_price": 52363053,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "17/12/2018",
+              "rate": 0.03
+            },
+            {
+              "from": "17/12/2018",
+              "to": "30/1/2019",
+              "rate": 0.04
+            },
+            {
+              "from": "30/1/2019",
+              "to": "16/1/2020",
+              "rate": 0.06
+            },
+            {
+              "from": "16/1/2020",
+              "to": "31/12/2020",
+              "rate": 0.06
+            }
+          ]
+        },
+        {
+          "product_id": 36,
+          "sell_price": 12216565,
+          "buy_price": 10708690,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "30/1/2016",
+              "rate": 0.05
+            },
+            {
+              "from": "30/1/2016",
+              "to": "6/9/2019",
+              "rate": 0.06
+            },
+            {
+              "from": "6/9/2019",
+              "to": "31/12/2020",
+              "rate": 0.11
+            }
+          ]
+        },
+        {
+          "product_id": 37,
+          "sell_price": 3261527,
+          "buy_price": 3239381,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "3/11/2018",
+              "rate": 0
+            },
+            {
+              "from": "3/11/2018",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 38,
+          "sell_price": 17549937,
+          "buy_price": 17337350,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "25/6/2015",
+              "rate": 0.01
+            },
+            {
+              "from": "25/6/2015",
+              "to": "8/8/2015",
+              "rate": 0.01
+            },
+            {
+              "from": "8/8/2015",
+              "to": "10/6/2016",
+              "rate": 0.01
+            },
+            {
+              "from": "10/6/2016",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 39,
+          "sell_price": 6888453,
+          "buy_price": 6536368,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "8/8/2015",
+              "rate": 0.01
+            },
+            {
+              "from": "8/8/2015",
+              "to": "31/12/2020",
+              "rate": 0.04
+            }
+          ]
+        },
+        {
+          "product_id": 40,
+          "sell_price": 906888,
+          "buy_price": 903443,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "29/3/2015",
+              "rate": 0
+            },
+            {
+              "from": "29/3/2015",
+              "to": "2/12/2016",
+              "rate": 0
+            },
+            {
+              "from": "2/12/2016",
+              "to": "5/10/2017",
+              "rate": 0
+            },
+            {
+              "from": "5/10/2017",
+              "to": "18/11/2020",
+              "rate": 0
+            },
+            {
+              "from": "18/11/2020",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 41,
+          "sell_price": 20235582,
+          "buy_price": 17576761,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "10/6/2016",
+              "rate": 0.05
+            },
+            {
+              "from": "10/6/2016",
+              "to": "23/7/2016",
+              "rate": 0.09
+            },
+            {
+              "from": "23/7/2016",
+              "to": "18/11/2017",
+              "rate": 0.06
+            },
+            {
+              "from": "18/11/2017",
+              "to": "29/2/2020",
+              "rate": 0.12
+            },
+            {
+              "from": "29/2/2020",
+              "to": "31/12/2020",
+              "rate": 0.07
+            }
+          ]
+        },
+        {
+          "product_id": 42,
+          "sell_price": 13506225,
+          "buy_price": 11490279,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "8/8/2015",
+              "rate": 0.05
+            },
+            {
+              "from": "8/8/2015",
+              "to": "3/11/2015",
+              "rate": 0.1
+            },
+            {
+              "from": "3/11/2015",
+              "to": "27/4/2016",
+              "rate": 0.07
+            },
+            {
+              "from": "27/4/2016",
+              "to": "10/6/2016",
+              "rate": 0.14
+            },
+            {
+              "from": "10/6/2016",
+              "to": "24/7/2019",
+              "rate": 0.04
+            },
+            {
+              "from": "24/7/2019",
+              "to": "31/12/2020",
+              "rate": 0.08
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "contractor_id": 3,
+      "description": "Công Ty Cổ Phần Nguyễn Quân",
+      "quality": 0.7,
+      "relationship": 0.14,
+      "products": [
+        {
+          "product_id": 0,
+          "sell_price": 16502854,
+          "buy_price": 10389130,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "21/9/2018",
+              "rate": 0.16
+            },
+            {
+              "from": "21/9/2018",
+              "to": "31/12/2020",
+              "rate": 0.06
+            }
+          ]
+        },
+        {
+          "product_id": 1,
+          "sell_price": 16101916,
+          "buy_price": 15962644,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/4/2017",
+              "rate": 0
+            },
+            {
+              "from": "12/4/2017",
+              "to": "18/11/2017",
+              "rate": 0
+            },
+            {
+              "from": "18/11/2017",
+              "to": "3/11/2018",
+              "rate": 0
+            },
+            {
+              "from": "3/11/2018",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 2,
+          "sell_price": 4594318,
+          "buy_price": 3971181,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "29/3/2015",
+              "rate": 0.05
+            },
+            {
+              "from": "29/3/2015",
+              "to": "18/11/2017",
+              "rate": 0.02
+            },
+            {
+              "from": "18/11/2017",
+              "to": "16/1/2020",
+              "rate": 0.06
+            },
+            {
+              "from": "16/1/2020",
+              "to": "22/8/2020",
+              "rate": 0.08
+            },
+            {
+              "from": "22/8/2020",
+              "to": "31/12/2020",
+              "rate": 0.03
+            }
+          ]
+        },
+        {
+          "product_id": 3,
+          "sell_price": 12605715,
+          "buy_price": 10905867,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/5/2015",
+              "rate": 0.02
+            },
+            {
+              "from": "12/5/2015",
+              "to": "5/9/2016",
+              "rate": 0.05
+            },
+            {
+              "from": "5/9/2016",
+              "to": "28/4/2019",
+              "rate": 0.02
+            },
+            {
+              "from": "28/4/2019",
+              "to": "31/12/2020",
+              "rate": 0.13
+            }
+          ]
+        },
+        {
+          "product_id": 4,
+          "sell_price": 4090299,
+          "buy_price": 2005464,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "14/3/2016",
+              "rate": 0.2
+            },
+            {
+              "from": "14/3/2016",
+              "to": "16/1/2020",
+              "rate": 0.28
+            },
+            {
+              "from": "16/1/2020",
+              "to": "31/12/2020",
+              "rate": 0.3
+            }
+          ]
+        },
+        {
+          "product_id": 5,
+          "sell_price": 21597139,
+          "buy_price": 18122991,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "8/8/2015",
+              "rate": 0.07
+            },
+            {
+              "from": "8/8/2015",
+              "to": "12/4/2020",
+              "rate": 0.04
+            },
+            {
+              "from": "12/4/2020",
+              "to": "31/12/2020",
+              "rate": 0.02
+            }
+          ]
+        },
+        {
+          "product_id": 6,
+          "sell_price": 26214505,
+          "buy_price": 15795962,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "22/8/2017",
+              "rate": 0.01
+            },
+            {
+              "from": "22/8/2017",
+              "to": "31/12/2020",
+              "rate": 0.26
+            }
+          ]
+        },
+        {
+          "product_id": 7,
+          "sell_price": 35796027,
+          "buy_price": 19669226,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "19/10/2016",
+              "rate": 0.14
+            },
+            {
+              "from": "19/10/2016",
+              "to": "16/1/2020",
+              "rate": 0.37
+            },
+            {
+              "from": "16/1/2020",
+              "to": "5/10/2020",
+              "rate": 0.4
+            },
+            {
+              "from": "5/10/2020",
+              "to": "31/12/2020",
+              "rate": 0.12
+            }
+          ]
+        },
+        {
+          "product_id": 8,
+          "sell_price": 1876577,
+          "buy_price": 1712363,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "17/12/2015",
+              "rate": 0.06
+            },
+            {
+              "from": "17/12/2015",
+              "to": "31/12/2020",
+              "rate": 0.04
+            }
+          ]
+        },
+        {
+          "product_id": 9,
+          "sell_price": 13385914,
+          "buy_price": 8679931,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "23/7/2016",
+              "rate": 0.08
+            },
+            {
+              "from": "23/7/2016",
+              "to": "8/8/2018",
+              "rate": 0.19
+            },
+            {
+              "from": "8/8/2018",
+              "to": "21/9/2018",
+              "rate": 0.33
+            },
+            {
+              "from": "21/9/2018",
+              "to": "15/3/2019",
+              "rate": 0.31
+            },
+            {
+              "from": "15/3/2019",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 10,
+          "sell_price": 5091328,
+          "buy_price": 2882467,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "28/2/2017",
+              "rate": 0.22
+            },
+            {
+              "from": "28/2/2017",
+              "to": "5/10/2020",
+              "rate": 0.24
+            },
+            {
+              "from": "5/10/2020",
+              "to": "31/12/2020",
+              "rate": 0.03
+            }
+          ]
+        },
+        {
+          "product_id": 11,
+          "sell_price": 154422407,
+          "buy_price": 124336112,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/5/2015",
+              "rate": 0.11
+            },
+            {
+              "from": "12/5/2015",
+              "to": "17/12/2015",
+              "rate": 0.13
+            },
+            {
+              "from": "17/12/2015",
+              "to": "28/2/2017",
+              "rate": 0.09
+            },
+            {
+              "from": "28/2/2017",
+              "to": "31/12/2020",
+              "rate": 0.1
+            }
+          ]
+        },
+        {
+          "product_id": 12,
+          "sell_price": 44982398,
+          "buy_price": 40087594,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "21/9/2018",
+              "rate": 0.09
+            },
+            {
+              "from": "21/9/2018",
+              "to": "31/12/2020",
+              "rate": 0.1
+            }
+          ]
+        },
+        {
+          "product_id": 13,
+          "sell_price": 504461034,
+          "buy_price": 349682185,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "14/3/2016",
+              "rate": 0.11
+            },
+            {
+              "from": "14/3/2016",
+              "to": "5/9/2016",
+              "rate": 0.02
+            },
+            {
+              "from": "5/9/2016",
+              "to": "12/4/2017",
+              "rate": 0.25
+            },
+            {
+              "from": "12/4/2017",
+              "to": "29/3/2018",
+              "rate": 0.04
+            },
+            {
+              "from": "29/3/2018",
+              "to": "25/6/2018",
+              "rate": 0
+            },
+            {
+              "from": "25/6/2018",
+              "to": "31/12/2020",
+              "rate": 0.03
+            }
+          ]
+        },
+        {
+          "product_id": 14,
+          "sell_price": 472707871,
+          "buy_price": 445873453,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "30/1/2016",
+              "rate": 0.02
+            },
+            {
+              "from": "30/1/2016",
+              "to": "10/6/2016",
+              "rate": 0
+            },
+            {
+              "from": "10/6/2016",
+              "to": "28/4/2019",
+              "rate": 0.02
+            },
+            {
+              "from": "28/4/2019",
+              "to": "31/12/2020",
+              "rate": 0.03
+            }
+          ]
+        },
+        {
+          "product_id": 15,
+          "sell_price": 194154873,
+          "buy_price": 97222632,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "10/6/2016",
+              "rate": 0.05
+            },
+            {
+              "from": "10/6/2016",
+              "to": "31/12/2020",
+              "rate": 0.43
+            }
+          ]
+        },
+        {
+          "product_id": 16,
+          "sell_price": 401501442,
+          "buy_price": 315204800,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/5/2015",
+              "rate": 0.12
+            },
+            {
+              "from": "12/5/2015",
+              "to": "3/11/2015",
+              "rate": 0.04
+            },
+            {
+              "from": "3/11/2015",
+              "to": "12/4/2017",
+              "rate": 0.09
+            },
+            {
+              "from": "12/4/2017",
+              "to": "3/11/2018",
+              "rate": 0.12
+            },
+            {
+              "from": "3/11/2018",
+              "to": "29/2/2020",
+              "rate": 0.18
+            },
+            {
+              "from": "29/2/2020",
+              "to": "31/12/2020",
+              "rate": 0.16
+            }
+          ]
+        },
+        {
+          "product_id": 17,
+          "sell_price": 129750685,
+          "buy_price": 103430711,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "10/6/2016",
+              "rate": 0.08
+            },
+            {
+              "from": "10/6/2016",
+              "to": "19/10/2016",
+              "rate": 0.07
+            },
+            {
+              "from": "19/10/2016",
+              "to": "28/2/2017",
+              "rate": 0.19
+            },
+            {
+              "from": "28/2/2017",
+              "to": "5/10/2017",
+              "rate": 0.08
+            },
+            {
+              "from": "5/10/2017",
+              "to": "8/8/2018",
+              "rate": 0.07
+            },
+            {
+              "from": "8/8/2018",
+              "to": "31/12/2020",
+              "rate": 0.1
+            }
+          ]
+        },
+        {
+          "product_id": 18,
+          "sell_price": 113462742,
+          "buy_price": 75199388,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "5/10/2017",
+              "rate": 0.05
+            },
+            {
+              "from": "5/10/2017",
+              "to": "3/11/2018",
+              "rate": 0.14
+            },
+            {
+              "from": "3/11/2018",
+              "to": "31/12/2020",
+              "rate": 0.18
+            }
+          ]
+        },
+        {
+          "product_id": 19,
+          "sell_price": 93810634,
+          "buy_price": 78809802,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "30/1/2019",
+              "rate": 0.07
+            },
+            {
+              "from": "30/1/2019",
+              "to": "20/10/2019",
+              "rate": 0.05
+            },
+            {
+              "from": "20/10/2019",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 20,
+          "sell_price": 92279869,
+          "buy_price": 75574690,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "8/8/2018",
+              "rate": 0.03
+            },
+            {
+              "from": "8/8/2018",
+              "to": "31/12/2020",
+              "rate": 0.09
+            }
+          ]
+        },
+        {
+          "product_id": 21,
+          "sell_price": 74349897,
+          "buy_price": 46462613,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "27/4/2016",
+              "rate": 0.31
+            },
+            {
+              "from": "27/4/2016",
+              "to": "21/9/2018",
+              "rate": 0.22
+            },
+            {
+              "from": "21/9/2018",
+              "to": "28/4/2019",
+              "rate": 0.28
+            },
+            {
+              "from": "28/4/2019",
+              "to": "9/7/2020",
+              "rate": 0.14
+            },
+            {
+              "from": "9/7/2020",
+              "to": "31/12/2020",
+              "rate": 0.31
+            }
+          ]
+        },
+        {
+          "product_id": 22,
+          "sell_price": 2769185,
+          "buy_price": 2631551,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "8/8/2015",
+              "rate": 0.01
+            },
+            {
+              "from": "8/8/2015",
+              "to": "23/7/2016",
+              "rate": 0.04
+            },
+            {
+              "from": "23/7/2016",
+              "to": "9/7/2017",
+              "rate": 0.03
+            },
+            {
+              "from": "9/7/2017",
+              "to": "25/6/2018",
+              "rate": 0.03
+            },
+            {
+              "from": "25/6/2018",
+              "to": "16/1/2020",
+              "rate": 0.03
+            },
+            {
+              "from": "16/1/2020",
+              "to": "31/12/2020",
+              "rate": 0.03
+            }
+          ]
+        },
+        {
+          "product_id": 23,
+          "sell_price": 21498530,
+          "buy_price": 15501530,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "18/11/2017",
+              "rate": 0.19
+            },
+            {
+              "from": "18/11/2017",
+              "to": "31/12/2020",
+              "rate": 0.07
+            }
+          ]
+        },
+        {
+          "product_id": 24,
+          "sell_price": 88714324,
+          "buy_price": 55661371,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "21/9/2015",
+              "rate": 0.37
+            },
+            {
+              "from": "21/9/2015",
+              "to": "17/12/2015",
+              "rate": 0.08
+            },
+            {
+              "from": "17/12/2015",
+              "to": "9/7/2017",
+              "rate": 0.36
+            },
+            {
+              "from": "9/7/2017",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 25,
+          "sell_price": 17481118,
+          "buy_price": 10084111,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "17/12/2015",
+              "rate": 0.02
+            },
+            {
+              "from": "17/12/2015",
+              "to": "9/7/2017",
+              "rate": 0.3
+            },
+            {
+              "from": "9/7/2017",
+              "to": "26/5/2020",
+              "rate": 0.33
+            },
+            {
+              "from": "26/5/2020",
+              "to": "31/12/2020",
+              "rate": 0.11
+            }
+          ]
+        },
+        {
+          "product_id": 26,
+          "sell_price": 87460373,
+          "buy_price": 58204389,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "12/4/2017",
+              "rate": 0.13
+            },
+            {
+              "from": "12/4/2017",
+              "to": "11/6/2019",
+              "rate": 0.16
+            },
+            {
+              "from": "11/6/2019",
+              "to": "31/12/2020",
+              "rate": 0.05
+            }
+          ]
+        },
+        {
+          "product_id": 27,
+          "sell_price": 684480229,
+          "buy_price": 385368546,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "14/3/2016",
+              "rate": 0.19
+            },
+            {
+              "from": "14/3/2016",
+              "to": "5/10/2017",
+              "rate": 0.17
+            },
+            {
+              "from": "5/10/2017",
+              "to": "12/5/2018",
+              "rate": 0.09
+            },
+            {
+              "from": "12/5/2018",
+              "to": "29/2/2020",
+              "rate": 0.29
+            },
+            {
+              "from": "29/2/2020",
+              "to": "31/12/2020",
+              "rate": 0.15
+            }
+          ]
+        },
+        {
+          "product_id": 28,
+          "sell_price": 106677222,
+          "buy_price": 98099644,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "3/11/2015",
+              "rate": 0.06
+            },
+            {
+              "from": "3/11/2015",
+              "to": "27/4/2016",
+              "rate": 0.01
+            },
+            {
+              "from": "27/4/2016",
+              "to": "10/6/2016",
+              "rate": 0.01
+            },
+            {
+              "from": "10/6/2016",
+              "to": "31/12/2020",
+              "rate": 0.05
+            }
+          ]
+        },
+        {
+          "product_id": 29,
+          "sell_price": 10757978,
+          "buy_price": 5644106,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "8/8/2015",
+              "rate": 0.18
+            },
+            {
+              "from": "8/8/2015",
+              "to": "9/7/2017",
+              "rate": 0.12
+            },
+            {
+              "from": "9/7/2017",
+              "to": "3/11/2018",
+              "rate": 0.12
+            },
+            {
+              "from": "3/11/2018",
+              "to": "31/12/2020",
+              "rate": 0.32
+            }
+          ]
+        },
+        {
+          "product_id": 30,
+          "sell_price": 211906362,
+          "buy_price": 209646297,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "30/1/2016",
+              "rate": 0.01
+            },
+            {
+              "from": "30/1/2016",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 31,
+          "sell_price": 374137478,
+          "buy_price": 183145569,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "30/1/2016",
+              "rate": 0.13
+            },
+            {
+              "from": "30/1/2016",
+              "to": "28/2/2017",
+              "rate": 0.25
+            },
+            {
+              "from": "28/2/2017",
+              "to": "18/11/2017",
+              "rate": 0.26
+            },
+            {
+              "from": "18/11/2017",
+              "to": "31/12/2020",
+              "rate": 0.16
+            }
+          ]
+        },
+        {
+          "product_id": 32,
+          "sell_price": 41002291,
+          "buy_price": 30969427,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "27/4/2016",
+              "rate": 0.14
+            },
+            {
+              "from": "27/4/2016",
+              "to": "10/6/2016",
+              "rate": 0.1
+            },
+            {
+              "from": "10/6/2016",
+              "to": "13/2/2018",
+              "rate": 0.21
+            },
+            {
+              "from": "13/2/2018",
+              "to": "16/1/2020",
+              "rate": 0.05
+            },
+            {
+              "from": "16/1/2020",
+              "to": "31/12/2020",
+              "rate": 0.04
+            }
+          ]
+        },
+        {
+          "product_id": 33,
+          "sell_price": 548523839,
+          "buy_price": 487077923,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "13/2/2015",
+              "rate": 0.04
+            },
+            {
+              "from": "13/2/2015",
+              "to": "27/4/2016",
+              "rate": 0.03
+            },
+            {
+              "from": "27/4/2016",
+              "to": "6/9/2019",
+              "rate": 0.08
+            },
+            {
+              "from": "6/9/2019",
+              "to": "5/10/2020",
+              "rate": 0.01
+            },
+            {
+              "from": "5/10/2020",
+              "to": "31/12/2020",
+              "rate": 0.08
+            }
+          ]
+        },
+        {
+          "product_id": 34,
+          "sell_price": 19521773,
+          "buy_price": 12144203,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "25/6/2015",
+              "rate": 0.1
+            },
+            {
+              "from": "25/6/2015",
+              "to": "23/7/2016",
+              "rate": 0.15
+            },
+            {
+              "from": "23/7/2016",
+              "to": "5/10/2017",
+              "rate": 0.3
+            },
+            {
+              "from": "5/10/2017",
+              "to": "30/1/2019",
+              "rate": 0.07
+            },
+            {
+              "from": "30/1/2019",
+              "to": "31/12/2020",
+              "rate": 0.19
+            }
+          ]
+        },
+        {
+          "product_id": 35,
+          "sell_price": 99287452,
+          "buy_price": 99007727,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "17/12/2015",
+              "rate": 0
+            },
+            {
+              "from": "17/12/2015",
+              "to": "27/4/2016",
+              "rate": 0
+            },
+            {
+              "from": "27/4/2016",
+              "to": "26/5/2017",
+              "rate": 0
+            },
+            {
+              "from": "26/5/2017",
+              "to": "22/8/2017",
+              "rate": 0
+            },
+            {
+              "from": "22/8/2017",
+              "to": "3/11/2018",
+              "rate": 0
+            },
+            {
+              "from": "3/11/2018",
+              "to": "31/12/2020",
+              "rate": 0
+            }
+          ]
+        },
+        {
+          "product_id": 36,
+          "sell_price": 13601825,
+          "buy_price": 10012309,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "17/12/2015",
+              "rate": 0.17
+            },
+            {
+              "from": "17/12/2015",
+              "to": "27/4/2016",
+              "rate": 0.04
+            },
+            {
+              "from": "27/4/2016",
+              "to": "22/8/2017",
+              "rate": 0.14
+            },
+            {
+              "from": "22/8/2017",
+              "to": "12/4/2020",
+              "rate": 0.11
+            },
+            {
+              "from": "12/4/2020",
+              "to": "5/10/2020",
+              "rate": 0.12
+            },
+            {
+              "from": "5/10/2020",
+              "to": "31/12/2020",
+              "rate": 0.08
+            }
+          ]
+        },
+        {
+          "product_id": 37,
+          "sell_price": 4075736,
+          "buy_price": 3219212,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "19/10/2016",
+              "rate": 0.15
+            },
+            {
+              "from": "19/10/2016",
+              "to": "16/1/2020",
+              "rate": 0.13
+            },
+            {
+              "from": "16/1/2020",
+              "to": "31/12/2020",
+              "rate": 0.19
+            }
+          ]
+        },
+        {
+          "product_id": 38,
+          "sell_price": 30187313,
+          "buy_price": 18270438,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "10/6/2016",
+              "rate": 0.36
+            },
+            {
+              "from": "10/6/2016",
+              "to": "31/12/2020",
+              "rate": 0.16
+            }
+          ]
+        },
+        {
+          "product_id": 39,
+          "sell_price": 10474641,
+          "buy_price": 9813275,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "11/6/2019",
+              "rate": 0.02
+            },
+            {
+              "from": "11/6/2019",
+              "to": "6/9/2019",
+              "rate": 0.01
+            },
+            {
+              "from": "6/9/2019",
+              "to": "5/10/2020",
+              "rate": 0.02
+            },
+            {
+              "from": "5/10/2020",
+              "to": "18/11/2020",
+              "rate": 0.04
+            },
+            {
+              "from": "18/11/2020",
+              "to": "31/12/2020",
+              "rate": 0.01
+            }
+          ]
+        },
+        {
+          "product_id": 40,
+          "sell_price": 2093812,
+          "buy_price": 1042940,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "29/2/2020",
+              "rate": 0.18
+            },
+            {
+              "from": "29/2/2020",
+              "to": "31/12/2020",
+              "rate": 0.44
+            }
+          ]
+        },
+        {
+          "product_id": 41,
+          "sell_price": 36223055,
+          "buy_price": 20317601,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "23/7/2016",
+              "rate": 0.35
+            },
+            {
+              "from": "23/7/2016",
+              "to": "31/12/2020",
+              "rate": 0.11
+            }
+          ]
+        },
+        {
+          "product_id": 42,
+          "sell_price": 22535113,
+          "buy_price": 17141456,
+          "discounts": [
+            {
+              "from": "1/1/2015",
+              "to": "22/8/2017",
+              "rate": 0.23
+            },
+            {
+              "from": "22/8/2017",
+              "to": "22/8/2020",
+              "rate": 0.2
+            },
+            {
+              "from": "22/8/2020",
+              "to": "31/12/2020",
+              "rate": 0.05
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

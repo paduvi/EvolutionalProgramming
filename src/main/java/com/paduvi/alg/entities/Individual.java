@@ -2,10 +2,7 @@ package com.paduvi.alg.entities;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.concurrent.ThreadLocalRandom;
 import java.util.function.Function;
-
-import com.paduvi.util.ProcessUtils;
 
 public class Individual {
 	private int nGenes;
@@ -13,13 +10,12 @@ public class Individual {
 	private double[] fitness;
 	private List<Function<byte[], Double>> fitnessFuncList;
 
-	public Individual(int geneSize, int nGenes, List<Function<byte[], Double>> fitnessFuncList) {
+	public Individual(int nGenes, List<Function<byte[], Double>> fitnessFuncList) {
 		this.fitnessFuncList = fitnessFuncList;
 		this.nGenes = nGenes;
 		this.genes = new byte[nGenes];
-		for (int i = 0; i < size(); i += geneSize) {
-			byte[] gene = ProcessUtils.makeOneHotEncode(ThreadLocalRandom.current().nextInt(0, geneSize), geneSize);
-			System.arraycopy(gene, 0, this.genes, i, geneSize);
+		for (int i = 0; i < size(); i++) {
+			this.genes[i] = (byte) Math.round(Math.random());
 		}
 		calcFitness();
 	}

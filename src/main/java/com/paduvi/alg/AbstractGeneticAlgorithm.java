@@ -4,7 +4,6 @@ import java.util.concurrent.ThreadLocalRandom;
 
 import com.paduvi.alg.entities.Individual;
 import com.paduvi.alg.entities.Population;
-import com.paduvi.util.ProcessUtils;
 
 public abstract class AbstractGeneticAlgorithm {
 	/* GA parameters */
@@ -15,7 +14,6 @@ public abstract class AbstractGeneticAlgorithm {
 	private Integer[] sortIndices;
 	private boolean elitism = true;
 	private int convergeLeft = 3;
-	private int geneSize = 1;
 
 	public Population evolvePopulation() {
 		Population newPopulation = new Population(pop.size());
@@ -35,7 +33,9 @@ public abstract class AbstractGeneticAlgorithm {
 		// Loop over the population size and create new individuals with
 		// crossover
 		for (int i = elitismOffset; i < pop.size(); i++) {
+
 			Individual indiv1 = tournamentSelection(pop);
+
 			Individual indiv2;
 			do {
 				indiv2 = tournamentSelection(pop);
@@ -66,19 +66,14 @@ public abstract class AbstractGeneticAlgorithm {
 
 	// Crossover individuals
 	protected Individual crossover(Individual indiv1, Individual indiv2) {
-		Individual newSol = new Individual(geneSize, indiv1.size(), indiv1.getFitnessFunc());
+		Individual newSol = new Individual(indiv1.size(), indiv1.getFitnessFunc());
 		// Loop through genes
-		for (int i = 0; i < indiv1.size() / geneSize; i++) {
-			int offset = i * geneSize;
+		for (int i = 0; i < indiv1.size(); i++) {
 			// Crossover
 			if (Math.random() <= uniformRate) {
-				for (int j = offset; j < offset + geneSize; j++) {
-					newSol.setGene(j, indiv1.getGene(j));
-				}
+				newSol.setGene(i, indiv1.getGene(i));
 			} else {
-				for (int j = offset; j < offset + geneSize; j++) {
-					newSol.setGene(j, indiv2.getGene(j));
-				}
+				newSol.setGene(i, indiv2.getGene(i));
 			}
 		}
 		return newSol;
@@ -87,15 +82,11 @@ public abstract class AbstractGeneticAlgorithm {
 	// Mutate an individual
 	protected void mutate(Individual indiv) {
 		// Loop through genes
-		for (int i = 0; i < indiv.size(); i += geneSize) {
+		for (int i = 0; i < indiv.size(); i++) {
 			if (Math.random() <= mutationRate) {
 				// Create random gene
-				byte[] gene = ProcessUtils.makeOneHotEncode(ThreadLocalRandom.current().nextInt(0, geneSize), geneSize);
-				int offset = i;
-				for (byte data : gene) {
-					indiv.setGene(offset, data);
-					offset++;
-				}
+				byte gene = (byte) Math.round(Math.random());
+				indiv.setGene(i, gene);
 			}
 		}
 	}
@@ -103,9 +94,9 @@ public abstract class AbstractGeneticAlgorithm {
 	// Select individuals for crossover
 	protected Individual tournamentSelection(Population pop) {
 		// Create a tournament population
-		Population tournament = new Population(tournamentSize);
+		Population tournament = new Population(tournamentSize * pop.size() / 100);
 		// For each place in the tournament get a random individual
-		for (int i = 0; i < tournamentSize; i++) {
+		for (int i = 0; i < tournamentSize * pop.size() / 100; i++) {
 			int randomId = ThreadLocalRandom.current().nextInt(0, pop.size());
 			tournament.saveIndividual(i, pop.getIndividual(randomId));
 		}
@@ -117,7 +108,6 @@ public abstract class AbstractGeneticAlgorithm {
 
 	protected void setPop(Population pop) {
 		this.pop = pop;
-		this.geneSize = pop.getGeneSize();
 	}
 
 	public Population getPop() {

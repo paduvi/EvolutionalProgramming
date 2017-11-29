@@ -2,48 +2,13 @@ package com.paduvi.app.models;
 
 import java.util.List;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 public class Pack {
 
-	@JsonProperty("id")
-	private int id;
-
-	@JsonProperty("description")
-	private String description;
-
-	@JsonProperty("duration")
-	private int duration;
-
-	@JsonProperty("estimated_cost")
+	private int packageId;
 	private long estimatedCost;
-
-	@JsonProperty("products")
 	private List<Product> products;
-
-	public int getId() {
-		return id;
-	}
-
-	public void setId(int id) {
-		this.id = id;
-	}
-
-	public String getDescription() {
-		return description;
-	}
-
-	public void setDescription(String description) {
-		this.description = description;
-	}
-
-	public int getDuration() {
-		return duration;
-	}
-
-	public void setDuration(int duration) {
-		this.duration = duration;
-	}
+	private Timeline timeline;
+	private List<Integer> joinedContractors;
 
 	public long getEstimatedCost() {
 		return estimatedCost;
@@ -61,4 +26,49 @@ public class Pack {
 		this.products = products;
 	}
 
+	public Timeline getTimeline() {
+		return timeline;
+	}
+
+	public void setTimeline(Timeline timeline) {
+		this.timeline = timeline;
+	}
+
+	public List<Integer> getJoinedContractors() {
+		return joinedContractors;
+	}
+
+	public void setJoinedContractors(List<Integer> joinedContractors) {
+		this.joinedContractors = joinedContractors;
+	}
+
+	public int getPackageId() {
+		return packageId;
+	}
+
+	public void setPackageId(int packageId) {
+		this.packageId = packageId;
+	}
+
+	public class Timeline {
+		private Timestamp from;
+		private Timestamp to;
+
+		public Timestamp getFrom() {
+			return from;
+		}
+
+		public void setFrom(Timestamp from) {
+			this.from = from;
+		}
+
+		public Timestamp getTo() {
+			return to;
+		}
+
+		public void setTo(Timestamp to) {
+			this.to = to;
+		}
+
+	}
 }

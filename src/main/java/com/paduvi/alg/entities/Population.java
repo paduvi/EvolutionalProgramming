@@ -7,7 +7,6 @@ public class Population {
 
 	private Individual[] individuals;
 	private boolean stopConditionReached = false;
-	private int geneSize = 1;
 
 	/*
 	 * Constructors
@@ -17,16 +16,11 @@ public class Population {
 	}
 
 	public Population(int populationSize, int nGenes, List<Function<byte[], Double>> fitnessFuncList) {
-		this(populationSize, 1, nGenes, fitnessFuncList);
-	}
-
-	public Population(int populationSize, int geneSize, int nGenes, List<Function<byte[], Double>> fitnessFuncList) {
 		individuals = new Individual[populationSize];
-		setGeneSize(geneSize);
 		// Initialise population
 		// Loop and create individuals
 		for (int i = 0; i < size(); i++) {
-			Individual newIndividual = new Individual(geneSize, nGenes, fitnessFuncList);
+			Individual newIndividual = new Individual(nGenes, fitnessFuncList);
 			saveIndividual(i, newIndividual);
 		}
 	}
@@ -55,12 +49,17 @@ public class Population {
 		this.stopConditionReached = true;
 	}
 
-	public int getGeneSize() {
-		return geneSize;
+	public void print() {
+
 	}
 
-	public void setGeneSize(int geneSize) {
-		this.geneSize = geneSize;
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		for (Individual individual : individuals) {
+			builder.append(individual.toString());
+		}
+		return builder.toString();
 	}
 
 }
