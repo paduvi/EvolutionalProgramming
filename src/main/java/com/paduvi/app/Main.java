@@ -25,7 +25,7 @@ public class Main {
 	private Population pop;
 	private NondominatedSortingGeneticAlgorithm2 ga;
 
-	private static final int MAX_EPOCH = 100;
+	private static final int MAX_EPOCH = 300;
 
 	/*
 	 * We need to minimize all objectives

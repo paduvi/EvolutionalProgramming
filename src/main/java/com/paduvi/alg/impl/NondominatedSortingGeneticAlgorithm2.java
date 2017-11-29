@@ -98,6 +98,7 @@ public class NondominatedSortingGeneticAlgorithm2 extends AbstractGeneticAlgorit
 		if (best.equals(this.best) && second.equals(this.second)) {
 			return true;
 		}
+		
 		this.best = best;
 		this.second = second;
 
