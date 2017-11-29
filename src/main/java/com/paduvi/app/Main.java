@@ -25,7 +25,7 @@ public class Main {
 	private Population pop;
 	private NondominatedSortingGeneticAlgorithm2 ga;
 
-	private static final int MAX_EPOCH = 300;
+	private static final int MAX_EPOCH = 100;
 
 	/*
 	 * We need to minimize all objectives
@@ -198,6 +198,16 @@ public class Main {
 			Contractor contractor = contractors.get(chosenContractors.get(i));
 			return new Solution(contractor, new Timestamp(pkg.getTimeline().getFrom().get() + day));
 		}).collect(Collectors.toList());
+	}
+
+	public List<Solution> getSolution() {
+		Integer[] sortedIndices = ga.getSortIndices();
+		Individual best = pop.getIndividual(sortedIndices[0]);
+		byte[] genes = new byte[best.size()];
+		for (int i = 0; i < best.size(); i++) {
+			genes[i] = best.getGene(i);
+		}
+		return getValidSolution(genes);
 	}
 
 	public void printResult() {
