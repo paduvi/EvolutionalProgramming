@@ -24,7 +24,8 @@ public class ProcessUtils {
 	public static List<Integer> extractContractor(byte[] arr, int geneSize, int bitCount) {
 		List<Integer> list = new ArrayList<>();
 		for (int i = 0; i < arr.length; i += geneSize) {
-			byte[] temp = Arrays.copyOfRange(arr, i, i + bitCount - 1);
+			byte[] temp = Arrays.copyOfRange(arr, i, i + bitCount);
+			assert bitCount == temp.length;
 			list.add(makeBinaryDecode(temp));
 		}
 		return list;
@@ -33,7 +34,8 @@ public class ProcessUtils {
 	public static List<Integer> extractDay(byte[] arr, int geneSize, int bitCount) {
 		List<Integer> list = new ArrayList<>();
 		for (int i = 0; i < arr.length; i += geneSize) {
-			byte[] temp = Arrays.copyOfRange(arr, i + bitCount, i + geneSize - 1);
+			byte[] temp = Arrays.copyOfRange(arr, i + bitCount, i + geneSize);
+			assert (geneSize - bitCount) == temp.length;
 			list.add(makeBinaryDecode(temp));
 		}
 		return list;
