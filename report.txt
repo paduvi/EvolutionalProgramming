@@ -2,59 +2,1239 @@
 === Lần 1 ===
 
 Cân bằng Nash tìm được:
-	Profit của Chủ đầu tư: 239.684.690 đ
-	Chất lượng của dự án: 3.3
-	Profit của Nhà thầu 'Công Ty Cổ Phần Tin Học Hồng Phúc': 95.948 đ
-	Profit của Nhà thầu 'IDC - Công Ty Cổ Phần Thương Mại IDC': 428.128 đ
-	Profit của Nhà thầu 'Công Ty TNHH Công Nghệ Thông Tin Việt Nam': 2.133.869 đ
-	Profit của Nhà thầu 'Công Ty Cổ Phần Nguyễn Quân': 953.249 đ
-	Profit của Nhà thầu 'Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội': 0 đ
+	Profit của Chủ đầu tư: 231.859.249 đ
+	Chất lượng của dự án: 3.2
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.999.857 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 145.673 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 914.635 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
 
 	Gói thầu 0:
-		- Tên nhà thầu:IDC - Công Ty Cổ Phần Thương Mại IDC
-		- Thời gian: 14/02/2017
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
 	Gói thầu 1:
-		- Tên nhà thầu:Công Ty Cổ Phần Nguyễn Quân
-		- Thời gian: 20/04/2017
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 12/04/2017
 	Gói thầu 2:
-		- Tên nhà thầu:Công Ty TNHH Công Nghệ Thông Tin Việt Nam
-		- Thời gian: 01/06/2017
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
 	Gói thầu 3:
-		- Tên nhà thầu:IDC - Công Ty Cổ Phần Thương Mại IDC
-		- Thời gian: 30/05/2017
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
 	Gói thầu 4:
-		- Tên nhà thầu:Công Ty Cổ Phần Tin Học Hồng Phúc
-		- Thời gian: 06/02/2017
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 18/02/2017
 	Gói thầu 5:
-		- Tên nhà thầu:Công Ty Cổ Phần Nguyễn Quân
-		- Thời gian: 27/01/2017
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 29/01/2017
 
 === Lần 2 ===
 
 Cân bằng Nash tìm được:
-	Profit của Chủ đầu tư: 232.562.520 đ
-	Chất lượng của dự án: 3.54
-	Profit của Nhà thầu 'Công Ty Cổ Phần Tin Học Hồng Phúc': 1.654.727 đ
-	Profit của Nhà thầu 'IDC - Công Ty Cổ Phần Thương Mại IDC': 149.607 đ
-	Profit của Nhà thầu 'Công Ty TNHH Công Nghệ Thông Tin Việt Nam': 0 đ
-	Profit của Nhà thầu 'Công Ty Cổ Phần Nguyễn Quân': 1.406.183 đ
-	Profit của Nhà thầu 'Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội': 0 đ
+	Profit của Chủ đầu tư: 233.858.228 đ
+	Chất lượng của dự án: 3.02
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.648.043 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 324.740 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 946.018 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
 
 	Gói thầu 0:
-		- Tên nhà thầu:Công Ty Cổ Phần Nguyễn Quân
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
 		- Thời gian: 06/01/2017
 	Gói thầu 1:
-		- Tên nhà thầu:Công Ty Cổ Phần Nguyễn Quân
-		- Thời gian: 16/04/2017
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
 	Gói thầu 2:
-		- Tên nhà thầu:Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
 		- Thời gian: 08/04/2017
 	Gói thầu 3:
-		- Tên nhà thầu:IDC - Công Ty Cổ Phần Thương Mại IDC
-		- Thời gian: 23/05/2017
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
 	Gói thầu 4:
-		- Tên nhà thầu:Công Ty Cổ Phần Tin Học Hồng Phúc
-		- Thời gian: 23/02/2017
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
 	Gói thầu 5:
-		- Tên nhà thầu:Công Ty Cổ Phần Nguyễn Quân
-		- Thời gian: 23/01/2017
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 19/01/2017
+
+=== Lần 3 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 235.985.296 đ
+	Chất lượng của dự án: 3.66
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.190.154 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 0 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.426.288 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.032.683 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 05/05/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 01/06/2017
+	Gói thầu 3:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 28/04/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 15/02/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/01/2017
+
+=== Lần 4 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 235.109.651 đ
+	Chất lượng của dự án: 3.54
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.684.475 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 146.089 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.402.182 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 24/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 05/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 27/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/01/2017
+
+=== Lần 5 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 228.438.972 đ
+	Chất lượng của dự án: 3.3000000000000003
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 77.060 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 324.740 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.236.842 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 960.374 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 22/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 19/01/2017
+
+=== Lần 6 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 232.016.046 đ
+	Chất lượng của dự án: 3.02
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.654.131 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 324.740 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 946.018 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 18/02/2017
+	Gói thầu 5:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 19/01/2017
+
+=== Lần 7 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 233.621.350 đ
+	Chất lượng của dự án: 3.7200000000000006
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.993.879 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 0 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.476.727 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 12/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 27/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 29/01/2017
+
+=== Lần 8 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 233.932.079 đ
+	Chất lượng của dự án: 3.54
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.648.153 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 147.698 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.426.730 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 16/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 24/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 01/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 27/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 31/01/2017
+
+=== Lần 9 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 228.026.543 đ
+	Chất lượng của dự án: 3.48
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 422.786 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 145.673 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.236.842 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 914.635 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 12/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 29/01/2017
+
+=== Lần 10 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 226.337.093 đ
+	Chất lượng của dự án: 3.48
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 428.993 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 146.089 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.236.842 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 924.282 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 12/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 05/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 19/02/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 29/01/2017
+
+=== Lần 11 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 233.349.012 đ
+	Chất lượng của dự án: 3.2
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.993.879 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 145.673 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 917.719 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 12/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 27/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/01/2017
+
+=== Lần 12 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 233.701.431 đ
+	Chất lượng của dự án: 3.2
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.993.769 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 145.673 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 914.635 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 12/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 29/01/2017
+
+=== Lần 13 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 232.887.947 đ
+	Chất lượng của dự án: 3.54
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.648.043 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 145.673 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.402.182 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/01/2017
+
+=== Lần 14 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 227.985.397 đ
+	Chất lượng của dự án: 2.7800000000000002
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 83.149 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 542.482 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.236.842 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 595.918 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 05/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 18/02/2017
+	Gói thầu 5:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 19/01/2017
+
+=== Lần 15 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 228.026.543 đ
+	Chất lượng của dự án: 3.48
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 422.786 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 145.673 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.236.842 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 914.635 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 12/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 29/01/2017
+
+=== Lần 16 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 231.861.091 đ
+	Chất lượng của dự án: 3.54
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.654.369 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 145.673 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.405.771 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 13/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 16/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 20/02/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 30/01/2017
+
+=== Lần 17 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 233.023.948 đ
+	Chất lượng của dự án: 3.54
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.648.043 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 146.089 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.402.875 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 15/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 05/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/01/2017
+
+=== Lần 18 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 232.016.046 đ
+	Chất lượng của dự án: 3.02
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.654.131 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 324.740 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 946.018 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 18/02/2017
+	Gói thầu 5:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 19/01/2017
+
+=== Lần 19 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 232.016.046 đ
+	Chất lượng của dự án: 3.02
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.654.131 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 324.740 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 946.018 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 18/02/2017
+	Gói thầu 5:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 19/01/2017
+
+=== Lần 20 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 228.183.340 đ
+	Chất lượng của dự án: 3.3000000000000003
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 77.060 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 324.740 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.236.842 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.057.472 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 19/01/2017
+
+=== Lần 21 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 226.229.703 đ
+	Chất lượng của dự án: 3.3000000000000003
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 83.149 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 324.740 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.236.842 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 946.018 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 18/02/2017
+	Gói thầu 5:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 19/01/2017
+
+=== Lần 22 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 232.887.947 đ
+	Chất lượng của dự án: 3.54
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.648.043 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 145.673 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.402.182 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/01/2017
+
+=== Lần 23 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 228.026.543 đ
+	Chất lượng của dự án: 3.48
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 422.786 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 145.673 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.236.842 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 924.282 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 12/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 29/01/2017
+
+=== Lần 24 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 228.183.340 đ
+	Chất lượng của dự án: 3.3000000000000003
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 87.537 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 324.740 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.236.842 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.057.472 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 19/01/2017
+
+=== Lần 25 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 227.621.871 đ
+	Chất lượng của dự án: 3.48
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 422.786 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 145.673 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.236.842 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 917.719 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 12/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/01/2017
+
+=== Lần 26 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 228.183.340 đ
+	Chất lượng của dự án: 3.3000000000000003
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 77.060 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 324.740 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.236.842 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 946.018 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 19/01/2017
+
+=== Lần 27 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 228.044.398 đ
+	Chất lượng của dự án: 3.48
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 433.137 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 150.396 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.236.842 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 923.624 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 08/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 12/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 06/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 25/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 26/01/2017
+
+=== Lần 28 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 232.887.947 đ
+	Chất lượng của dự án: 3.54
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.648.043 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 145.673 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.513.637 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/01/2017
+
+=== Lần 29 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 232.991.060 đ
+	Chất lượng của dự án: 3.54
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.648.043 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 146.089 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.513.637 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 05/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/01/2017
+
+=== Lần 30 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 231.148.879 đ
+	Chất lượng của dự án: 3.54
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.654.131 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 146.089 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.402.182 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 05/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 18/02/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/01/2017
+
+=== Lần 31 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 233.733.710 đ
+	Chất lượng của dự án: 3.02
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.648.153 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 324.740 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.055.772 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 12/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 27/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 19/01/2017
+
+=== Lần 32 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 231.045.766 đ
+	Chất lượng của dự án: 3.54
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.654.131 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 145.673 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.402.182 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 18/02/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/01/2017
+
+=== Lần 33 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 226.444.271 đ
+	Chất lượng của dự án: 3.3000000000000003
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 83.149 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 325.157 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.236.842 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 946.018 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 05/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 18/02/2017
+	Gói thầu 5:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 19/01/2017
+
+=== Lần 34 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 232.887.947 đ
+	Chất lượng của dự án: 3.54
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.648.043 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 145.673 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.402.182 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/01/2017
+
+=== Lần 35 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 232.776.493 đ
+	Chất lượng của dự án: 3.54
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.648.043 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 145.673 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.402.182 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/01/2017
+
+=== Lần 36 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 232.887.947 đ
+	Chất lượng của dự án: 3.54
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.648.043 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 145.673 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.402.182 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/01/2017
+
+=== Lần 37 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 227.996.944 đ
+	Chất lượng của dự án: 4.0
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 422.786 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 0 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.236.842 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.478.335 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 12/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 21/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 29/01/2017
+
+=== Lần 38 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 233.395.732 đ
+	Chất lượng của dự án: 3.54
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.648.043 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 146.089 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.399.098 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 05/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 26/03/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 29/01/2017
+
+=== Lần 39 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 226.341.158 đ
+	Chất lượng của dự án: 3.3000000000000003
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 83.149 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 324.740 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 5.236.842 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 946.018 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 14/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 03/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 18/02/2017
+	Gói thầu 5:
+		- Tên nhà thầu: IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 19/01/2017
+
+=== Lần 40 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 230.279.802 đ
+	Chất lượng của dự án: 3.7200000000000006
+
+	Profit của Công Ty Cổ Phần Tin Học Hồng Phúc: 1.999.857 đ
+	Profit của IDC - Công Ty Cổ Phần Thương Mại IDC: 0 đ
+	Profit của Công Ty TNHH Công Nghệ Thông Tin Việt Nam: 0 đ
+	Profit của Công Ty Cổ Phần Nguyễn Quân: 1.495.061 đ
+	Profit của Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội: 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 12/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 29/04/2017
+	Gói thầu 4:
+		- Tên nhà thầu: Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 18/02/2017
+	Gói thầu 5:
+		- Tên nhà thầu: Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 19/01/2017
