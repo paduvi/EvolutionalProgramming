@@ -70,7 +70,7 @@ public class Main {
 	};
 
 	/*
-	 * Get maximum contractor's revenue as we can.
+	 * Get maximum contractor's balance as we can.
 	 */
 	private Function<byte[], Double> OBJECTIVE_3 = arr -> {
 		List<Solution> solutions = getValidSolution(arr);
@@ -103,6 +103,37 @@ public class Main {
 		return sum;
 	};
 
+	/*
+	 * Get maximum contractor's revenue as we can
+	 */
+	private Function<byte[], Double> OBJECTIVE_4 = arr -> {
+		List<Solution> solutions = getValidSolution(arr);
+		if (solutions == null)
+			return Double.MAX_VALUE;
+		double[] listRevenues = new double[contractors.size()];
+
+		IntStream.range(0, project.getPackages().size()).parallel().forEach(i -> {
+			Contractor contractor = solutions.get(i).getContractor();
+			Timestamp executedDate = solutions.get(i).getExecutedDate();
+			Pack pkg = project.getPackages().get(i);
+			double differentPrice = pkg.getProducts().parallelStream().mapToDouble(p -> {
+				int productId = p.getProductId();
+				Product temp = contractor.getProducts().parallelStream().filter(p1 -> p1.getProductId() == productId)
+						.findAny().get();
+				return ((1 - temp.getDiscountRate(executedDate)) * temp.getSellPrice() - temp.getBuyPrice())
+						* p.getQuantity();
+			}).sum();
+			listRevenues[contractor.getContractorId()] += differentPrice
+					* Math.exp(project.getInflationRate() * (executedDate.get() - project.getStartDate().get()) / 7);
+		});
+
+		double sum = 0;
+		for (int i = 0; i < contractors.size(); i++) {
+			sum += listRevenues[i];
+		}
+		return sum;
+	};
+
 	public Main(Project project, List<Contractor> contractors) {
 		this.project = project;
 		this.contractors = contractors;
@@ -114,30 +145,7 @@ public class Main {
 		fitnessFuncList.add(OBJECTIVE_1);
 		fitnessFuncList.add(OBJECTIVE_2);
 		fitnessFuncList.add(OBJECTIVE_3);
-		for (Contractor contractor : contractors) {
-			fitnessFuncList.add(arr -> {
-				List<Solution> solutions = getValidSolution(arr);
-				if (solutions == null)
-					return Double.MAX_VALUE;
-
-				return IntStream.range(0, project.getPackages().size()).parallel().mapToDouble(i -> {
-					if (solutions.get(i).getContractor().getContractorId() != contractor.getContractorId()) {
-						return 0;
-					}
-					Timestamp executedDate = solutions.get(i).getExecutedDate();
-					Pack pkg = project.getPackages().get(i);
-					double differentPrice = pkg.getProducts().parallelStream().mapToDouble(p -> {
-						int productId = p.getProductId();
-						Product temp = contractor.getProducts().parallelStream()
-								.filter(p1 -> p1.getProductId() == productId).findAny().get();
-						return ((1 - temp.getDiscountRate(executedDate)) * temp.getSellPrice() - temp.getBuyPrice())
-								* p.getQuantity();
-					}).sum();
-					return differentPrice * Math
-							.exp(project.getInflationRate() * (executedDate.get() - project.getStartDate().get()) / 7);
-				}).sum();
-			});
-		}
+		fitnessFuncList.add(OBJECTIVE_4);
 
 		this.setPop(new Population(1000,
 				(ProcessUtils.maxBitCount(contractors.size()) + ProcessUtils.maxBitCount(rangeOfDay))
@@ -240,6 +248,14 @@ public class Main {
 					* Math.exp(project.getInflationRate() * (executedDate.get() - project.getStartDate().get()) / 7));
 		});
 
+	}
+
+	public Project getProject() {
+		return this.project;
+	}
+
+	public List<Contractor> getContractors() {
+		return this.contractors;
 	}
 
 	public Population getPop() {

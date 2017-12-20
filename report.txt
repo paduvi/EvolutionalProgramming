@@ -1,0 +1,60 @@
+
+=== Lần 1 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 239.684.690 đ
+	Chất lượng của dự án: 3.3
+	Profit của Nhà thầu 'Công Ty Cổ Phần Tin Học Hồng Phúc': 95.948 đ
+	Profit của Nhà thầu 'IDC - Công Ty Cổ Phần Thương Mại IDC': 428.128 đ
+	Profit của Nhà thầu 'Công Ty TNHH Công Nghệ Thông Tin Việt Nam': 2.133.869 đ
+	Profit của Nhà thầu 'Công Ty Cổ Phần Nguyễn Quân': 953.249 đ
+	Profit của Nhà thầu 'Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội': 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu:IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 14/02/2017
+	Gói thầu 1:
+		- Tên nhà thầu:Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 20/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu:Công Ty TNHH Công Nghệ Thông Tin Việt Nam
+		- Thời gian: 01/06/2017
+	Gói thầu 3:
+		- Tên nhà thầu:IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 30/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu:Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 06/02/2017
+	Gói thầu 5:
+		- Tên nhà thầu:Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 27/01/2017
+
+=== Lần 2 ===
+
+Cân bằng Nash tìm được:
+	Profit của Chủ đầu tư: 232.562.520 đ
+	Chất lượng của dự án: 3.54
+	Profit của Nhà thầu 'Công Ty Cổ Phần Tin Học Hồng Phúc': 1.654.727 đ
+	Profit của Nhà thầu 'IDC - Công Ty Cổ Phần Thương Mại IDC': 149.607 đ
+	Profit của Nhà thầu 'Công Ty TNHH Công Nghệ Thông Tin Việt Nam': 0 đ
+	Profit của Nhà thầu 'Công Ty Cổ Phần Nguyễn Quân': 1.406.183 đ
+	Profit của Nhà thầu 'Artek - Công Ty Cổ Phần Công Nghệ Máy Tính Và Kiến Trúc Hà Nội': 0 đ
+
+	Gói thầu 0:
+		- Tên nhà thầu:Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 06/01/2017
+	Gói thầu 1:
+		- Tên nhà thầu:Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 16/04/2017
+	Gói thầu 2:
+		- Tên nhà thầu:Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 08/04/2017
+	Gói thầu 3:
+		- Tên nhà thầu:IDC - Công Ty Cổ Phần Thương Mại IDC
+		- Thời gian: 23/05/2017
+	Gói thầu 4:
+		- Tên nhà thầu:Công Ty Cổ Phần Tin Học Hồng Phúc
+		- Thời gian: 23/02/2017
+	Gói thầu 5:
+		- Tên nhà thầu:Công Ty Cổ Phần Nguyễn Quân
+		- Thời gian: 23/01/2017
