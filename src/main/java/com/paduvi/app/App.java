@@ -140,6 +140,6 @@ public class App {
 		pw.close();
 
 		System.out.println("Done");
-
+		System.exit(0);
 	}
 }
